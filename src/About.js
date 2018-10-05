@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import { Grid,  Button } from '@material-ui/core';
-import { CSSTransitionGroup } from 'react-transition-group'
-import { Link } from 'react-router-dom'
+import { Grid,   Typography } from '@material-ui/core';
+import { CSSTransitionGroup } from 'react-transition-group';
+import Nav from './nav';
 
 const styles = theme => {
   const navHeight = '70px';
@@ -19,6 +19,9 @@ const styles = theme => {
       transition: 'box-shadow 1s',
       zIndex: '10'
     },
+    secAbout: {
+      marginTop: navHeight,
+    }
   })
 };
 
@@ -34,10 +37,10 @@ class About extends Component {
         transitionLeave={false}>
         <Grid container key="details">
           <Grid item xs={12}>
-            <div className={classes.tabDivFixed}>
-              <Button component={Link} to="/work/1">W</Button>
-              <Button component={Link} to="/about">M</Button>
-            </div>
+            <Nav isFixed={true} />
+            <section className={classes.secAbout}>
+              <Typography variant="headline">About</Typography>
+            </section>
           </Grid>
         </Grid>
       </CSSTransitionGroup>

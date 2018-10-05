@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import { Typography, Grid, Button } from '@material-ui/core';
+import { Typography, Grid } from '@material-ui/core';
 import Tile from './tile';
-import { CSSTransitionGroup } from 'react-transition-group'
-import { Link } from 'react-router-dom'
+import Nav from './nav';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 const styles = theme => {
   const navHeight = '70px';
@@ -11,25 +11,7 @@ const styles = theme => {
     heroSection: {
       width: '100%',
       height: 'calc(100vh - ' + navHeight + ')',
-    },
-    tabDiv: {
-      backgroundColor: '#EEEEEE',
-      width: '100%',
-      height: navHeight,
-      textAlign: 'center',
-    },
-    tabDivFixed: {
-      backgroundColor: '#EEEEEE',
-      width: '100%',
-      height: navHeight,
-      textAlign: 'center',
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      boxShadow: '0px 2px 7px 0px rgba(186,186,186,1)',
-      transition: 'box-shadow 1s',
-      zIndex: '10'
-    },
+    },    
     workTiles: {
       display: 'flex',
       justifyContent: 'space-between',
@@ -75,16 +57,7 @@ class Home extends Component {
             <section className={classes.heroSection}>              
               <Typography variant="display1">Hello!</Typography>
             </section>
-            {this.state.navFixed ?
-              <div className={classes.tabDivFixed} ref="navRef">
-                <Button component={Link} to="/work/1">W</Button>
-                <Button component={Link} to="/about">M</Button>
-              </div> :
-              <div className={classes.tabDiv} ref="navRef">
-                <Button component={Link} to="/work/1">W</Button>
-                <Button component={Link} to="/about">M</Button>
-              </div>
-            }
+            <Nav isFixed={this.state.navFixed} />
             <section>
               <div className={classes.workTiles}>
                 <Tile pic="1" />

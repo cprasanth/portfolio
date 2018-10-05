@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import { Grid, Typography, Button } from '@material-ui/core';
-import { Close, NavigateNext, NavigateBefore } from '@material-ui/icons';
+import { NavigateNext, NavigateBefore } from '@material-ui/icons';
 import { CSSTransitionGroup } from 'react-transition-group'
-import { Link } from 'react-router-dom'
+import Nav from './nav';
 
 const styles = theme => {
   const navHeight = '70px';
@@ -22,6 +22,8 @@ const styles = theme => {
     secTitle: {
       display: 'flex',
       boxShadow: '0px 2px 7px 0px rgba(186,186,186,1)',
+      marginTop: navHeight,
+      borderTop: 'solid 1px #dddddd',
     },
     workTitle: {
       flex: 3,
@@ -59,18 +61,15 @@ class Work extends Component {
         transitionLeave={false}>
         <Grid container key="details">
           <Grid item xs={12}>
-            <div className={classes.tabDivFixed}>
-              <Button component={Link} to="/work/1">W</Button>
-              <Button component={Link} to="/about">M</Button>
-            </div>
+            <Nav isFixed={true} />
             <section className={classes.secTitle}>
               <Button className={classes.prevButton} aria-label="Previous">
                 <NavigateBefore />
                 Prev
               </Button>
-              <Button className={classes.closeButton} aria-label="Close" component={Link} to="/">
+              {/* <Button className={classes.closeButton} aria-label="Close" component={Link} to="/">
                 <Close />
-              </Button>
+              </Button> */}
               <Button className={classes.nextButton} aria-label="Next">
                 Next
                 <NavigateNext />

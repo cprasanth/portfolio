@@ -43,8 +43,6 @@ const theme = createMuiTheme({
 });
 
 const App = () => (
-
-
   <MuiThemeProvider theme={theme}>
     <CssBaseline />
     <Switch>
