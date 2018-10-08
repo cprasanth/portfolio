@@ -4,6 +4,7 @@ import { Typography, Grid } from '@material-ui/core';
 import Tile from './tile';
 import Nav from './nav';
 import { CSSTransitionGroup } from 'react-transition-group';
+import threeEntryPoint from "./hero/threeEntryPoint"
 
 const styles = theme => {
   const navHeight = '70px';
@@ -12,6 +13,11 @@ const styles = theme => {
       width: '100%',
       height: 'calc(100vh - ' + navHeight + ')',
     },    
+    threeDiv:{
+      width: '100%',
+      height: '100%',
+      // overflow: 'hidden',
+    },
     workTiles: {
       display: 'flex',
       justifyContent: 'space-between',
@@ -30,7 +36,8 @@ class Home extends Component {
     this.setState({ value });
   };
   componentDidMount = () => {
-    window.addEventListener('scroll', this.handleOnScroll)
+    window.addEventListener('scroll', this.handleOnScroll);
+    threeEntryPoint(this.threeRootElement);
   }
   handleOnScroll = () => {
     if (window.pageYOffset < window.innerHeight - 70) {
@@ -55,7 +62,8 @@ class Home extends Component {
         <Grid container key="home">
           <Grid item xs={12}>
             <section className={classes.heroSection}>              
-              <Typography variant="display1">Hello!</Typography>
+              {/* <Typography variant="display1">Hello!</Typography> */}
+              <div ref={element => this.threeRootElement = element} className={classes.threeDiv} />
             </section>
             <Nav isFixed={this.state.navFixed} />
             <section>
