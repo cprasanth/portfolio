@@ -12,11 +12,22 @@ const styles = theme => {
     heroSection: {
       width: '100%',
       height: 'calc(100vh - ' + navHeight + ')',
-    },    
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      flexDirection: 'row',
+    },  
+    heroDiv: {      
+      position: 'absolute',
+      width: '100%',
+    }, 
+    heroText: {      
+      color: '#114B7B',
+      textAlign: 'center',
+    }, 
     threeDiv:{
       width: '100%',
       height: '100%',
-      // overflow: 'hidden',
     },
     workTiles: {
       display: 'flex',
@@ -37,7 +48,7 @@ class Home extends Component {
   };
   componentDidMount = () => {
     window.addEventListener('scroll', this.handleOnScroll);
-    threeEntryPoint(this.threeRootElement);
+    threeEntryPoint(this.threeRootElement);//Start three js rendering
   }
   handleOnScroll = () => {
     if (window.pageYOffset < window.innerHeight - 70) {
@@ -62,7 +73,9 @@ class Home extends Component {
         <Grid container key="home">
           <Grid item xs={12}>
             <section className={classes.heroSection}>              
-              {/* <Typography variant="display1">Hello!</Typography> */}
+              <div className={classes.heroDiv}>
+                <Typography variant="display1" className={classes.heroText}>Hello!</Typography>
+              </div>
               <div ref={element => this.threeRootElement = element} className={classes.threeDiv} />
             </section>
             <Nav isFixed={this.state.navFixed} />

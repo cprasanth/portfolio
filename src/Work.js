@@ -67,9 +67,6 @@ class Work extends Component {
                 <NavigateBefore />
                 Prev
               </Button>
-              {/* <Button className={classes.closeButton} aria-label="Close" component={Link} to="/">
-                <Close />
-              </Button> */}
               <Button className={classes.nextButton} aria-label="Next">
                 Next
                 <NavigateNext />

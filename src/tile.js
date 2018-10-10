@@ -17,12 +17,10 @@ const styles = theme => {
       },
       height: '500px',
       cursor: 'pointer',
+      overflow: 'hidden',
     },
     tileHeader: {
-      width: '100%',
       height: '100%',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
       maxHeight: '500px',      
     }
   })
@@ -32,9 +30,8 @@ class Tile extends Component {
   render() {
     const { classes, pic } = this.props;
     return (
-      <Link className={classes.workTile} to="/work/2">
-        <div className={classes.tileHeader} style={{ backgroundImage: 'url("https://loremflickr.com/1920/1080?lock=' + pic + '")' }}>
-        </div>
+      <Link className={classes.workTile} to={"/work/"+pic}>
+        <img className={classes.tileHeader} src={'https://loremflickr.com/1920/1080?lock=' + pic}  />
       </Link>
     )
   }

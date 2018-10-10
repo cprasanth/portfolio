@@ -37,7 +37,7 @@ const styles = theme => {
     },
     linkAbout: {
       flexGrow: 1,
-      justifyContent: 'left',
+      justifyContent: 'flex-start',
       borderRadius: 0,
     }
   })
