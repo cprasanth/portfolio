@@ -5,8 +5,9 @@ import Righteous from 'typeface-righteous';
 import Home from './Home';
 import Work from './Work';
 import About from './About';
+import Data from './data';
 
-const theme = createMuiTheme({
+const theme = createMuiTheme({  
   palette: {
     primary: {
       main: '#488A99',
@@ -18,6 +19,9 @@ const theme = createMuiTheme({
       default: '#DDDEDE'
     },
     fontFamily: Righteous,
+    typography: {
+      useNextVariants: true,
+    },
   },
   '@global': {
     '.example-enter.example-enter-active': {
@@ -46,8 +50,8 @@ const App = () => (
   <MuiThemeProvider theme={theme}>
     <CssBaseline />
     <Switch>
-      <Route path="/" exact render={()=><Home />}/>
-      <Route path="/work/:Id" render={()=><Work />}/>
+      <Route path="/" exact render={()=><Home Data={Data.en}/>}/>
+      <Route path="/work/:Id" render={(match)=><Work Data={Data.en[match.match.params.Id]} lastIndex={Data.en.length-1} curIndex={match.match.params.Id}/>}/>
       <Route path="/about" render={()=><About />}/>
       <Redirect to="/" />
     </Switch>

@@ -18,21 +18,23 @@ const styles = theme => {
       height: '500px',
       cursor: 'pointer',
       overflow: 'hidden',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
     },
     tileHeader: {
       height: '100%',
-      maxHeight: '500px',      
+      width: '100%',
+      objectFit: 'cover',   
+      objectPosition: 'center',
     }
   })
 };
 
 class Tile extends Component {
   render() {
-    const { classes, pic } = this.props;
+    const { classes, val, tileIndex } = this.props;
     return (
-      <Link className={classes.workTile} to={"/work/"+pic}>
-        <img className={classes.tileHeader} src={'https://loremflickr.com/1920/1080?lock=' + pic}  />
-      </Link>
+      <Link className={classes.workTile} to={"/work/"+tileIndex} style={{backgroundImage : `url(${val.thumbnail})`}}></Link>
     )
   }
 }

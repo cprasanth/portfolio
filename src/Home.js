@@ -48,7 +48,7 @@ class Home extends Component {
   };
   componentDidMount = () => {
     window.addEventListener('scroll', this.handleOnScroll);
-    threeEntryPoint(this.threeRootElement);//Start three js rendering
+    // threeEntryPoint(this.threeRootElement);//Start three js rendering
   }
   handleOnScroll = () => {
     if (window.pageYOffset < window.innerHeight - 70) {
@@ -61,7 +61,7 @@ class Home extends Component {
     window.removeEventListener('scroll', this.handleOnScroll)
   }
   render() {
-    const { classes } = this.props;
+    const { classes, Data } = this.props;
     return (
       <CSSTransitionGroup
       transitionName="example"
@@ -80,17 +80,15 @@ class Home extends Component {
             </section>
             <Nav isFixed={this.state.navFixed} />
             <section>
-              <div className={classes.workTiles}>
-                <Tile pic="1" />
-                <Tile pic="2" />
-                <Tile pic="3" />
-                <Tile pic="4" />
-                <Tile pic="5" />
-                <Tile pic="6" />
-                <Tile pic="7" />
-                <Tile pic="8" />
-                <Tile pic="9" />
-              </div>
+              {Data&&
+                <div className={classes.workTiles}>
+                  {
+                    Data.map((val, i)=> {
+                      return <Tile val={val} key={i} tileIndex={i} />    
+                    })
+                  }
+                </div>
+              }
             </section>
           </Grid>
         </Grid>
