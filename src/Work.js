@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/core/styles';
 import { Grid, Typography, Button } from '@material-ui/core';
 import { NavigateNext, NavigateBefore } from '@material-ui/icons';
 import { CSSTransitionGroup } from 'react-transition-group';
-import Slide from 'react-reveal/Slide';
+import {Slide, Fade} from 'react-reveal';
 import { Link } from 'react-router-dom';
 import Nav from './nav';
 
@@ -80,9 +80,7 @@ const styles = theme => {
 };
 
 class Work extends Component {
-  componentWillReceiveProps() {
-    this.forceUpdate();
-  }
+  
   render() {
     const { classes, Data } = this.props;
     if (!Data) {
@@ -119,7 +117,9 @@ class Work extends Component {
               </Button>
             </section>
             <section className={classes.secDetails}>
-              <div className={classes.workHeader} style={{backgroundImage : `url(${Data.banner})`}}></div>
+              <Fade bottom>
+                <div className={classes.workHeader} style={{backgroundImage : `url(${Data.banner})`}}></div>
+              </Fade>
               <Slide bottom>
                 <div className={classes.secContainer}>
                   <Typography className={classes.workTitle} variant="h2">{Data.title}</Typography>
@@ -129,9 +129,9 @@ class Work extends Component {
                 Data.content.map((val, i) => {
                   switch (val.type) {
                     case "img":
-                      return <Slide key={i} bottom>
+                      return <Fade key={i} bottom>
                                 <img className={classes.bodyImages} src={val.val} alt={Data.title} />
-                              </Slide>
+                              </Fade>
                     case "h3":
                       return <Slide key={i} bottom>
                                 <div className={classes.secContainer}>
