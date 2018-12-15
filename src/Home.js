@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import { Typography, Grid } from '@material-ui/core';
+import { Typography, Grid, Button } from '@material-ui/core';
 import Tile from './tile';
 import Nav from './nav';
 import { CSSTransitionGroup } from 'react-transition-group';
-import threeEntryPoint from "./hero/threeEntryPoint"
+// import threeEntryPoint from "./hero/threeEntryPoint"
+import scrollToComponent from 'react-scroll-to-component';
 
 const styles = theme => {
   const navHeight = '70px';
@@ -16,15 +17,32 @@ const styles = theme => {
       alignItems: 'center',
       justifyContent: 'center',
       flexDirection: 'row',
+      background: 'radial-gradient(ellipse at center, rgba(252,252,252,1) 0%,rgba(221,222,222,1) 100%)',
     },  
     heroDiv: {      
       position: 'absolute',
-      width: '100%',
-    }, 
-    heroText: {      
-      color: '#114B7B',
+      width: '100%',      
       textAlign: 'center',
     }, 
+    heroText1: {      
+      fontWeight: 800,
+      color: '#17252a',
+      fontSize: '65px'
+    }, 
+    heroText2: {      
+      fontWeight: 600,
+      color: '#17252a',
+      fontSize: '32px'
+    },     
+    viewButton:{
+      marginTop: '30px',
+      border: '1px solid #17252a',
+      '&:hover':{
+        backgroundColor: '#3aafa9',
+        borderColor: '#3aafa9',
+        color: '#ffffff',
+      }
+    },
     threeDiv:{
       width: '100%',
       height: '100%',
@@ -60,6 +78,9 @@ class Home extends Component {
   componentWillUnmount = () => {
     window.removeEventListener('scroll', this.handleOnScroll)
   }
+  scrollToWork = () => {
+    scrollToComponent(this.refs.workTiles, { offset: -71, align: 'top', duration: 800, ease:'outCube'});
+  }
   render() {
     const { classes, Data } = this.props;
     return (
@@ -74,14 +95,16 @@ class Home extends Component {
           <Grid item xs={12}>
             <section className={classes.heroSection}>              
               <div className={classes.heroDiv}>
-                <Typography variant="display1" className={classes.heroText}>Hello!</Typography>
+                <Typography variant="display1" className={classes.heroText1}>Hi, I'm Prasanth</Typography>
+                <Typography variant="display1" className={classes.heroText2}>Web Developer based in Bristol</Typography>
+                <Button className={classes.viewButton} onClick={this.scrollToWork}>View My Work</Button>
               </div>
               <div ref={element => this.threeRootElement = element} className={classes.threeDiv} />
             </section>
             <Nav isFixed={this.state.navFixed} />
             <section>
               {Data&&
-                <div className={classes.workTiles}>
+                <div className={classes.workTiles} ref="workTiles">
                   {
                     Data.map((val, i)=> {
                       return <Tile val={val} key={i} tileIndex={i} />    
