@@ -36,11 +36,14 @@ const styles = theme => {
     },     
     viewButton:{
       marginTop: '30px',
+      borderRadius: 2,
       border: '1px solid #17252a',
+      transition: 'all 1s', 
       '&:hover':{
-        backgroundColor: '#3aafa9',
-        borderColor: '#3aafa9',
-        color: '#ffffff',
+        backgroundColor: 'transparent',
+        // borderColor: '#3aafa9',
+        // color: '#ffffff',
+        borderRadius: 10,
       }
     },
     threeDiv:{
@@ -95,8 +98,8 @@ class Home extends Component {
           <Grid item xs={12}>
             <section className={classes.heroSection}>              
               <div className={classes.heroDiv}>
-                <Typography variant="display1" className={classes.heroText1}>Hi, I'm Prasanth</Typography>
-                <Typography variant="display1" className={classes.heroText2}>Web Developer based in Bristol</Typography>
+                <Typography variant="body1" className={classes.heroText1}>Hi, I'm Prasanth</Typography>
+                <Typography variant="body1" className={classes.heroText2}>Web Developer based in Bristol</Typography>
                 <Button className={classes.viewButton} onClick={this.scrollToWork}>View My Work</Button>
               </div>
               <div ref={element => this.threeRootElement = element} className={classes.threeDiv} />

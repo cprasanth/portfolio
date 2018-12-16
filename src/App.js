@@ -12,6 +12,35 @@ const theme = createMuiTheme({
   typography: {
     fontFamily: "\"Raleway\", \"Roboto\", \"Arial\", sans-serif",
     useNextVariants: true,
+    
+  },
+  overrides: {
+    MuiTypography: {
+      body2: {
+        fontSize: '19px',
+        lineHeight: 1.58,
+        fontWeight: 300,
+        marginTop: '30px',
+      },
+      h1: {
+        fontWeight: 700,
+      },
+      h2: {
+        fontWeight: 700,
+        fontSize: '2.3rem',
+        margin: '20px 0',
+      },
+      h3: {
+        fontWeight: 500,
+        fontSize: '1.8rem',
+        margin: '15px 0',
+      },
+      h4:{
+        fontWeight: 500,
+        fontSize: '1.5rem',
+        margin: '15px 0',
+      }
+    }
   },
   palette: {
     primary: {
@@ -21,7 +50,7 @@ const theme = createMuiTheme({
       main: '#FAAE3D',
     },
     background: {
-      default: '#DDDEDE'
+      default: '#FFFFFF'
     },
   },
   '@global': {

@@ -39,7 +39,7 @@ class About extends Component {
           <Grid item xs={12}>
             <Nav isFixed={true} />
             <section className={classes.secAbout}>
-              <Typography variant="headline">About</Typography>
+              <Typography variant="h1">About</Typography>
             </section>
           </Grid>
         </Grid>

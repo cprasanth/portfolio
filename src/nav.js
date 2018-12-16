@@ -28,23 +28,23 @@ const styles = theme => {
       display: 'flex',      
       color: '#ffffff',
     },
-    linkWork:{
+    linkHome:{
       flexGrow: 1,
       justifyContent: 'flex-end',
       borderRadius: 0,
       color: '#ffffff',
-    },
-    linkHome: {
-      flexGrow: 0,
-      borderRadius: 0,
-      backgroundColor: '#3aafa9',
-      color: '#ffffff',
+      '&:hover':{
+        backgroundColor: '#3aafa9',
+      }
     },
     linkAbout: {
       flexGrow: 1,
       justifyContent: 'flex-start',
       borderRadius: 0,
       color: '#ffffff',
+      '&:hover':{
+        backgroundColor: '#3aafa9',
+      }
     }
   })
 };
@@ -54,8 +54,7 @@ class Nav extends Component {
     const { classes, isFixed } = this.props;
     return (
       <div className={isFixed ? classes.tabDivFixed : classes.tabDiv}>
-        <Button component={Link} to="/work/1" className={classes.linkWork}>WORK</Button>
-        <Button component={Link} to="/" className={classes.linkHome}>H</Button>
+        <Button component={Link} to="/" className={classes.linkHome}>HOME</Button>
         <Button component={Link} to="/about" className={classes.linkAbout}>ABOUT</Button>
       </div>
     )
