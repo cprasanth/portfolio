@@ -33,12 +33,12 @@ const theme = createMuiTheme({
       h3: {
         fontWeight: 500,
         fontSize: '1.8rem',
-        margin: '15px 0',
+        margin: '30px 0 20px 0',
       },
       h4:{
         fontWeight: 500,
         fontSize: '1.5rem',
-        margin: '15px 0',
+        margin: '20px 0',
       }
     }
   },
