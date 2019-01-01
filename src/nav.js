@@ -33,8 +33,14 @@ const styles = theme => {
       justifyContent: 'flex-end',
       borderRadius: 0,
       color: '#ffffff',
+      fontWeight: 700,
       '&:hover':{
-        backgroundColor: '#3aafa9',
+        backgroundColor: '#ffce00',
+        color: '#17252a',
+      },
+      '&.active':{
+        backgroundColor: '#ffce00',
+        color: '#17252a',
       }
     },
     linkAbout: {
@@ -42,8 +48,14 @@ const styles = theme => {
       justifyContent: 'flex-start',
       borderRadius: 0,
       color: '#ffffff',
+      fontWeight: 700,
       '&:hover':{
-        backgroundColor: '#3aafa9',
+        backgroundColor: '#ffce00',
+        color: '#17252a',
+      },
+      '&.active':{
+        backgroundColor: '#ffce00',
+        color: '#17252a',
       }
     }
   })
@@ -51,7 +63,7 @@ const styles = theme => {
 
 class Nav extends Component {
   render() {
-    const { classes, isFixed } = this.props;
+    const { classes, isFixed, isHome } = this.props;
     return (
       <div className={isFixed ? classes.tabDivFixed : classes.tabDiv}>
         <Button component={Link} to="/" className={classes.linkHome}>HOME</Button>

@@ -38,7 +38,10 @@ const theme = createMuiTheme({
       h4:{
         fontWeight: 500,
         fontSize: '1.5rem',
-        margin: '20px 0',
+        margin: '50px 0 0 0',
+      },
+      a: {
+        color: '#2468CD'
       }
     }
   },

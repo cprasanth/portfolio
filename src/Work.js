@@ -36,6 +36,7 @@ const styles = theme => {
     workTitle: {
       flex: 3,
       lineHeight: '48px',
+      marginTop: '70px',
     },
     closeButton: {
       flexGrow: 0,
@@ -62,9 +63,10 @@ const styles = theme => {
     },
     workHeader: {
       width: '100%',
-      height: '200px',
+      height: '500px',
       backgroundColor: '#aaaaaa',
       backgroundSize: 'cover',
+      backgroundPosition: 'center',
     },
     bodyImages: {
       width: '100%',
@@ -75,6 +77,27 @@ const styles = theme => {
       width: '100%',
       margin: '0 auto',
       padding: '0 20px',
+    },
+    secInfoContainer: {
+      maxWidth: '740px',
+      width: '100%',
+      margin: '30px auto',
+      padding: '20px',
+      backgroundColor: '#eeeeee',
+    },
+    secInfo: {
+      margin: '0 0 10px 0',
+      fontSize: '16px',
+      fontWeight: 400,
+      '& a': {
+        textDecoration: 'none',
+        '&:hover': {
+          textDecoration: 'underline',
+        },
+        '&:visited': {
+          color: '#2468CD',
+        }
+      }
     }
   })
 };
@@ -142,6 +165,17 @@ class Work extends Component {
                       return <Slide key={i} bottom>
                                 <div className={classes.secContainer}>
                                   <Typography variant="h4">{val.val}</Typography>
+                                </div>
+                              </Slide>
+                    case "info":
+                      return <Slide key={i} bottom>
+                                <div className={classes.secInfoContainer}>
+                                  <Typography variant="body2" className={classes.secInfo}><b>Client: </b>{val.client}</Typography>
+                                  <Typography variant="body2" className={classes.secInfo}><b>Company: </b>{val.company}</Typography>
+                                  <Typography variant="body2" className={classes.secInfo}><b>Tech: </b>{val.tech}</Typography>
+                                  {val.url &&
+                                    <Typography variant="body2" className={classes.secInfo}><b>Website: </b><a target="_blank" href={val.url}>{val.urlText}</a></Typography>
+                                  }
                                 </div>
                               </Slide>
                     default:

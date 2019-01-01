@@ -1,104 +1,109 @@
 {
   "en":[
     {
-      "title": "Big Bang Fair",
-      "thumbnail": "https://loremflickr.com/950/500?lock=1",
-      "banner": "https://loremflickr.com/950/200?lock=1",
-      "content":[
-        {
-          "type": "h3",
-          "val": "Add subheading here"
-        },
+      "title": "West Cambridge Masterplan - Enviornmental Impact Assessment NTS",
+      "thumbnail": "/images/work/nts/thumb.png",
+      "banner": "/images/work/nts/nts1.jpg",
+      "content":[        
         {
           "type": "body1",
           "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }, 
+        {
+          "type": "h4",
+          "val": "My Role"
         },
         {
+          "type": "body1",
+          "val": "I was responsible for building the front-end using HTML5, CSS3 and BackboneJS and used Sharepoint REST APIs as backend"
+        },      
+        {
+          "type": "info",
+          "client": "University of Cambridge",
+          "company": "Atkins",
+          "tech": "HTML5, LESS, BackboneJS, RequireJS, Leaflet, Sharepoint, Cordova",
+          "url": "https://westcambridge-nts.com/",
+          "urlText": "West Cambridge Masterplan"
+        },  
+        {
           "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=3"
+          "val": "/images/work/nts/nts5.jpg"
+        },  
+        {
+          "type": "img",
+          "val": "/images/work/nts/nts2.jpg"
+        },  
+        {
+          "type": "img",
+          "val": "/images/work/nts/nts3.jpg"
+        },  
+        {
+          "type": "img",
+          "val": "/images/work/nts/nts4.jpg"
+        }
+      ]
+    }, 
+    
+    {
+      "title": "Public realm strategy and design guide",
+      "thumbnail": "/images/work/crown/thumb.jpg",
+      "banner": "/images/work/crown/ce1.png",
+      "content":[
+        
+        {
+          "type": "body1",
+          "val": "The Crown Estate has been working with Atkins since 1997 on improving the public realm of the Regent Street and St James’s portfolios and a great deal of knowledge and experience has been acquired over this period. The purpose of the app is to share this knowledge with other members of development teams to provide a clearer understanding of how The Crown Estate operates when dealing with the public realm."
+        },
+        {
+          "type": "body1",
+          "val": "The deliverables were a Sharepoint intranet site, website and an iPad app. LeafletJS was used for mapping the project areas on the website and the site was packaged as an iPad app using Apache Cordova."
         },
         {
           "type": "h4",
-          "val": "Lorem ipsum dolor sit amet"
+          "val": "My Role"
         },
         {
           "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "val": "I was responsible for building the front-end using HTML5, CSS3 and BackboneJS and used Sharepoint REST APIs as backend"
         },
         {
-          "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "type": "info",
+          "client": "The Crown Estate",
+          "company": "Atkins",
+          "tech": "HTML5, LESS, BackboneJS, RequireJS, Leaflet, Sharepoint, Cordova",
+          "url": "https://thecrownestatepublicrealm.info",
+          "urlText": "Public Realm Strategy and Design Guide"
+        },        
+        {
+          "type": "h4",
+          "val": "Screenshots"
+        },        
+        {
+          "type": "img",
+          "val": "/images/work/crown/ce3.jpg"
         },
         {
           "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=1"
+          "val": "/images/work/crown/ce2.png"
         },
         {
           "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=2"
+          "val": "/images/work/crown/ce5.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/crown/ce4.jpg"
         }
       ]
     },
     {
-      "title": "project 2",
-      "thumbnail": "https://loremflickr.com/950/500?lock=2",
-      "banner": "https://loremflickr.com/950/200?lock=2",
-      "content":[
-        {
-          "type": "h3",
-          "val": "Add subheading here"
-        },
-        {
-          "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=2"
-        },
-        {
-          "type": "h4",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=6"
-        },
-        {
-          "type": "body1",
-          "val": "Lorem ipsum adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=7"
-        }
-      ]
-    },
-    {
-      "title": "project 3",
-      "thumbnail": "https://loremflickr.com/950/500?lock=3",
-      "banner": "https://loremflickr.com/950/200?lock=3",
-      "content":[
-        {
-          "type": "h3",
-          "val": "Add subheading here"
-        },
-        {
-          "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=1"
-        },
+      "title": "Atkins Acuity",
+      "thumbnail": "/images/work/acuity/thumb.png",
+      "banner": "/images/work/acuity/ac0.png",
+      "content":[        
         {
           "type": "body1",
           "val": "Lorem ipsumonsectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        
-        {
-          "type": "h4",
-          "val": "Lorem ipsum dolor sit amet, consectetur adicitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
           "type": "body1",
@@ -109,24 +114,199 @@
           "val": "Lorem ipsum dolor sadipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-          "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=5"
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "I was responsible for the feasibilty study of technologies like Adapt learning framework and Unity for the simulations and interactivity on web. Also managed the collaboration between Unity and Web development team from conceptual stage to delivery."
+        },
+        {
+          "type": "info",
+          "client": " Acuity",
+          "company": "Atkins",
+          "tech": "Adapt Learning, Unity, WebGL, Moodle",
+          "url": "https://www.atkinsacuity.com",
+          "urlText": "Atkins Acuity"
+        },
+        {
+          "type": "h4",
+          "val": "Screenshots"
         },
         {
           "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=6"
+          "val": "/images/work/acuity/ac1.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/acuity/ac2.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/acuity/ac3.jpg"
         }
       ]
     },
     {
-      "title": "project 4",
-      "thumbnail": "https://loremflickr.com/950/500?lock=4",
-      "banner": "https://loremflickr.com/950/200?lock=4",
+      "title": "Cycle Traffic E-learning",
+      "thumbnail": "/images/work/cycling/thumb.png",
+      "banner": "/images/work/cycling/he.png",
+      "content":[                
+        {
+          "type": "body1",
+          "val": "The Strategic Road Network makes up a small proportion of the national highway network but has an important role to play in supporting journeys made by cycle."
+        },
+        {
+          "type": "body1",
+          "val": "Increasing highway design professionals’ engagement and knowledge of key requirements in the planning and design of infrastructure for cycle traffic was the objective of the delivery. An interactive and comprehensive set of e-learning modules were produced to give guidance on designing for cycle traffic."
+        },
+        {
+          "type": "body1",
+          "val": "Utilising cutting edge elearning platforms such an Adapt framework with mini game interactions built in Unity created a dynamic and technologically advanced e-learning."
+        },
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "I was responsible for the feasibilty study of technologies like Adapt learning framework and Unity for the simulations and interactivity on web. Also managed the collaboration between Unity and Web development team from conceptual stage to delivery."
+        },
+        {
+          "type": "info",
+          "client": " Highways England",
+          "company": "Atkins",
+          "tech": "Adapt Learning, Unity, WebGL, Moodle",
+          "url": "https://cycletraffic-elearning.com/",
+          "urlText": "Cycle Traffic"
+        },
+        {
+          "type": "h4",
+          "val": "Screenshots"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/cycling/he1.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/cycling/he2.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/cycling/he3.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/cycling/he4.png"
+        }
+      ]
+    },
+    {
+      "title": "Big Bang Fair",
+      "thumbnail": "/images/work/bigbang/thumb.jpg",
+      "banner": "/images/work/bigbang/bb0.jpg",
       "content":[
         {
-          "type": "h3",
-          "val": "Add subheading here"
+          "type": "body1",
+          "val": "The Big Bang Fair is the UK’s largest Science, Technology, Engineering and Mathematics (STEM) annual exhibition. The event attracted around 50,000 seven to nineteen year olds with an aim of encourage youngsters to pursue a STEM career by highlighting how engineering impacts everyday life."
         },
+        {
+          "type": "body1",
+          "val": "To support the event two educational and fun facts games were developed. One game would challenge players to ensure the correct level and type of power was supplied to a city based on a scenario given, while the other would require them to solve problems associated with connecting water lines. Both games were timed based increased in complexity as the player progressed through the stages. Games were presented on two separate touch screens held within an eco-friendly themed house."
+        },
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "Both games were developed using Adobe Air and Starling game engine. I was responsible for the development of these games and assisted the the design team to create and optimize the assets for the games."
+        },
+        {
+          "type": "info",
+          "client": " D&E",
+          "company": "Atkins",
+          "tech": "Adobe AIR, Actionscript3.0, Starling"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/bigbang/bb1.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/bigbang/bb5.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/bigbang/bb6.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/bigbang/bb3.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/bigbang/bb4.jpg"
+        }
+      ]
+    },
+    {
+      "title": "HMEP Asset Management E-Learning",
+      "thumbnail": "/images/work/hmep/thumb.png",
+      "banner": "/images/work/hmep/hm1.jpg",
+      "content":[        
+        {
+          "type": "body1",
+          "val": "HMEP is the Highways Maintenance Efficiency Programme, which exists to support the sector on its journey to transform highway services."
+        },
+        {
+          "type": "body1",
+          "val": "HMEP Asset Management E-Learning Toolkit has been based on the contents of the HMEP Highway Infrastructure Asset Management Guidance. The Guidance helps all those delivering highway services, including senior decision makers, asset managers, service providers and practitioners, to embed asset management principles in their organisations and make the case for funding highway maintenance."
+        },
+        {
+          "type": "body1",
+          "val": "This training material, endorsed by the Chartered Institution of Highways & Transportation (CIHT) is available to access online freely."
+        },
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "I was responsible for working with the subject experts in Atkins and our in-house design team to develop a SCORM compliant e-learning toolkit which is highly interactive and easy to use. The course modules were developed using Adobe Flash and a custom Learning Management System was developed using Moodle for user management and progress tracking."
+        },
+        {
+          "type": "info",
+          "client": " HMEP",
+          "company": "Atkins",
+          "tech": "Adobe Flash, Actionscrit3.0, Moodle, Javascript",
+          "url": "http://learn.highwaysefficiency.org.uk",
+          "urlText": "HMEP Asset Management"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/hmep/hm2.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/hmep/hm3.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/hmep/hm4.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/hmep/hm5.jpg"
+        }
+      ]
+    },
+    {
+      "title": "EWR Consultation",
+      "thumbnail": "/images/work/ewr/thumb.png",
+      "banner": "https://loremflickr.com/950/200?lock=4",
+      "content":[        
         {
           "type": "body1",
           "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -134,27 +314,246 @@
         {
           "type": "img",
           "val": "https://loremflickr.com/950/500?lock=1"
+        }
+      ]
+    },
+    {
+      "title": "Human-Centered Design Concept Analysis Tool",
+      "thumbnail": "/images/work/hcd/thumb.png",
+      "banner": "/images/work/hcd/hcd0.jpg",
+      "content":[        
+        {
+          "type": "body1",
+          "val": "HCD Concept Analysis Tool will help building designers make informed decisions taking into account the effect of wellbeing in the early concept stages of design. This tool allows engineers to upload a 3D model of the building from Autodesk Revit and Analyse it."
         },
         {
           "type": "h4",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipisr turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "val": "My Role"
         },
         {
           "type": "body1",
-          "val": "Lorem ipsum dadipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "val": "My main responsibility on this ongoing project was to develop front-end of the tool with charting capabilities. User interface of the tool was deeloped using angularJS and MaterializeCSS."
+        },
+        {
+          "type": "info",
+          "client": " Bulding Design",
+          "company": "Atkins",
+          "tech": "HTML5, SASS, Materialize, AngularJS, PlotlyJS"
         },
         {
           "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=2"
+          "val": "/images/work/hcd/hcd1.jpg"
         },
+        {
+          "type": "img",
+          "val": "/images/work/hcd/hcd2.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/hcd/hcd3.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/hcd/hcd4.jpg"
+        }
+      ]
+    },    
+    {
+      "title": "Digital EIA",
+      "thumbnail": "/images/work/eia/thumb.png",
+      "banner": "https://loremflickr.com/950/200?lock=4",
+      "content":[        
         {
           "type": "body1",
           "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
-        
         {
           "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=3"
+          "val": "https://loremflickr.com/950/500?lock=1"
+        }
+      ]
+    },
+    {
+      "title": "ELT",
+      "thumbnail": "/images/work/elt/thumb.png",
+      "banner": "/images/work/elt/elt0.png",
+      "content":[        
+        {
+          "type": "body1",
+          "val": "Registration app and a realtime dashboard for the ELT event at Arcelormittal Orbit in London."
+        },
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "I was responsible for setting up the Firebase Realtime Database backend using Google Cloud Functions. Also implemented the Lottie SVG animations on the dashboard using Bodymovin plugin for Adobe Aftereffects."
+        },
+        {
+          "type": "info",
+          "client": " ELT",
+          "company": "Atkins",
+          "tech": "HTML5, SASS, Materialize, Firebase, Google Functions, Lottie, Bodymovin, Adobe After effects",
+          "url": "https://eltapp.netlify.com/dashboard",
+          "urlText": "ELT Registration"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/elt/elt1.png"
+        },          
+        {
+          "type": "img",
+          "val": "/images/work/elt/elt8.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/elt/elt7.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/elt/elt3.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/elt/elt4.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/elt/elt5.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/elt/elt6.png"
+        }
+      ]
+    },
+    {
+      "title": "FearFighter",
+      "thumbnail": "/images/work/nhs/thumb.png",
+      "banner": "/images/work/nhs/ff0.jpg",
+      "content":[        
+        {
+          "type": "body1",
+          "val": "The FearFighter™ program is the only product endorsed by a national regulator – National Institute for Health and Clinical Excellence (NICE) in the UK for an Anxiety Treatment. This is an evidence-based, online program that teaches you how to confront and change your thoughts and allows you to print worksheets for activities, to monitor progress, and receive emails with further tips at the end of each step."
+        },
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "Developed various interactive activities and questionnaires in this product and integrated it with the .net backend for tracking progress."
+        },
+        {
+          "type": "info",
+          "client": " NHS",
+          "company": "CCBT",
+          "tech": "HTML5, CSS3, Javascript, Actionscript3.0",
+          "url": "https://apps.beta.nhs.uk/fearfighter/",
+          "urlText": "Fear Fighter"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/nhs/nhs1.png"
+        }       
+      ]
+    },
+    {
+      "title": "Pitch Space",
+      "thumbnail": "/images/work/pitch/thumb.jpg",
+      "banner": "/images/work/pitch/fg0.png",
+      "content":[        
+        {
+          "type": "body1",
+          "val": "Pitch Space is a bespoke presentation tool developed for Faithful+Gould which allows users to easily create and share presentations from a list of pre-built templates following the company brand guidelines."
+        },
+        {
+          "type": "body1",
+          "val": "A curated collection of photos, videos and illustraitions called Pitch Stock was also created. This allowed the users to create their own personal collection of assets for faster creation of presentaions. These assets can be imported into Pitch Space presentations."
+        },
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": ""
+        },
+        {
+          "type": "info",
+          "client": " Faithful+Gould",
+          "company": "Atkins",
+          "tech": "HTML5, SASS, AngularJS, NodeJS, SailsJS, Bootstrap, MySQL, Sharepoint",
+          "url": "pitchspace.net",
+          "urlText": "Pitch Space"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/pitch/fg9.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/pitch/fg1.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/pitch/fg2.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/pitch/fg3.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/pitch/fg4.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/pitch/fg8.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/pitch/fg5.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/pitch/fg6.png"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/pitch/fg7.png"
+        }
+      ]
+    },
+    {
+      "title": "Sherston",
+      "thumbnail": "/images/work/sherston/thumb.png",
+      "banner": "/images/work/sherston/sh1.png",
+      "content":[        
+        {
+          "type": "body1",
+          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": ""
+        },
+        {
+          "type": "info",
+          "client": " Faithful+Gould",
+          "company": "Atkins",
+          "tech": "HTML5, SASS, AngularJS, NodeJS, SailsJS, Bootstrap, MySQL, Sharepoint",
+          "url": "pitchspace.net",
+          "urlText": "Pitch Space"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/sherston/sh2.png"
         }
       ]
     }

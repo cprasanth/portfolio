@@ -26,7 +26,7 @@ const styles = theme => {
       height: '100%',
       width: '100%',
       '&:hover': {
-        transform: 'scale(1.2)',
+        transform: 'scale(1.1)',
       }
     },
     tileHeader: {

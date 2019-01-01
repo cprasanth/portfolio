@@ -104,7 +104,7 @@ class Home extends Component {
               </div>
               <div ref={element => this.threeRootElement = element} className={classes.threeDiv} />
             </section>
-            <Nav isFixed={this.state.navFixed} />
+            <Nav isFixed={this.state.navFixed} isHome={true} />
             <section>
               {Data&&
                 <div className={classes.workTiles} ref="workTiles">
