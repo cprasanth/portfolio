@@ -174,7 +174,7 @@ class Work extends Component {
                                   <Typography variant="body2" className={classes.secInfo}><b>Company: </b>{val.company}</Typography>
                                   <Typography variant="body2" className={classes.secInfo}><b>Tech: </b>{val.tech}</Typography>
                                   {val.url &&
-                                    <Typography variant="body2" className={classes.secInfo}><b>Website: </b><a target="_blank" href={val.url}>{val.urlText}</a></Typography>
+                                    <Typography variant="body2" className={classes.secInfo}><b>Website: </b><a target="_blank" rel="noopener noreferrer" href={val.url}>{val.urlText}</a></Typography>
                                   }
                                 </div>
                               </Slide>
