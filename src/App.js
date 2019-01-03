@@ -39,9 +39,6 @@ const theme = createMuiTheme({
         fontWeight: 500,
         fontSize: '1.5rem',
         margin: '50px 0 0 0',
-      },
-      a: {
-        color: '#2468CD'
       }
     }
   },
@@ -85,7 +82,7 @@ const App = () => (
     <ScrollToTop />
     <Switch>
       <Route path="/" exact render={() => <Home Data={Data.en} />} />
-      <Route path="/work/:Id" render={(match) => <Work Data={Data.en[match.match.params.Id]} lastIndex={Data.en.length - 1} curIndex={match.match.params.Id} />} />
+      <Route path="/work/:Id" render={(match) => <Work Data={Data.en} Project={Data.en[match.match.params.Id]} lastIndex={Data.en.length - 1} curIndex={match.match.params.Id} />} />
       <Route path="/about" render={() => <About />} />
       <Redirect to="/" />
     </Switch>

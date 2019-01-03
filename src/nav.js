@@ -37,11 +37,11 @@ const styles = theme => {
       '&:hover':{
         backgroundColor: '#ffce00',
         color: '#17252a',
-      },
-      '&.active':{
-        backgroundColor: '#ffce00',
-        color: '#17252a',
-      }
+      },      
+    },
+    linkHomeActive:{
+      backgroundColor: '#ffce00',
+      color: '#17252a',
     },
     linkAbout: {
       flexGrow: 1,
@@ -52,11 +52,11 @@ const styles = theme => {
       '&:hover':{
         backgroundColor: '#ffce00',
         color: '#17252a',
-      },
-      '&.active':{
-        backgroundColor: '#ffce00',
-        color: '#17252a',
-      }
+      },      
+    },
+    linkAboutActive:{
+      backgroundColor: '#ffce00',
+      color: '#17252a',
     }
   })
 };
@@ -64,10 +64,17 @@ const styles = theme => {
 class Nav extends Component {
   render() {
     const { classes, isFixed, isHome } = this.props;
+    let homeActive = '';
+    let aboutActive = '';
+    if(isHome){
+      homeActive = classes.linkHomeActive;
+    }else{
+      aboutActive = classes.linkAboutActive;
+    }
     return (
       <div className={isFixed ? classes.tabDivFixed : classes.tabDiv}>
-        <Button component={Link} to="/" className={classes.linkHome}>HOME</Button>
-        <Button component={Link} to="/about" className={classes.linkAbout}>ABOUT</Button>
+        <Button component={Link} to="/" className={`${classes.linkHome} ${homeActive}`}>HOME</Button>
+        <Button component={Link} to="/about" className={`${classes.linkAbout} ${aboutActive}`}>ABOUT</Button>
       </div>
     )
   }

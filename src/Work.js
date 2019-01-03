@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import { Grid, Typography, Button } from '@material-ui/core';
-import { NavigateNext, NavigateBefore } from '@material-ui/icons';
+import Tile from './tile';
+// import { NavigateNext, NavigateBefore } from '@material-ui/icons';
 import { CSSTransitionGroup } from 'react-transition-group';
-import {Slide, Fade} from 'react-reveal';
-import { Link } from 'react-router-dom';
+import { Slide, Fade } from 'react-reveal';
+// import { Link } from 'react-router-dom';
 import Nav from './nav';
 
 const styles = theme => {
@@ -31,7 +32,7 @@ const styles = theme => {
       zIndex: 10,
     },
     secDetails: {
-      marginTop: '111px',
+      marginTop: '70px',
     },
     workTitle: {
       flex: 3,
@@ -85,6 +86,9 @@ const styles = theme => {
       padding: '20px',
       backgroundColor: '#eeeeee',
     },
+    vdo: {
+      width: '100%',
+    },
     secInfo: {
       margin: '0 0 10px 0',
       fontSize: '16px',
@@ -98,15 +102,21 @@ const styles = theme => {
           color: '#2468CD',
         }
       }
-    }
+    },
+    workTiles: {
+      display: 'flex',
+      justifyContent: 'space-between',
+      flexWrap: 'wrap',
+      position: 'relative',
+    },
   })
 };
 
 class Work extends Component {
-  
+
   render() {
-    const { classes, Data } = this.props;
-    if (!Data) {
+    const { classes, Data, Project } = this.props;
+    if (!Project) {
       window.location = "/";
     }
     const curIndex = Number(this.props.curIndex);
@@ -129,7 +139,7 @@ class Work extends Component {
         <Grid container key="details">
           <Grid item xs={12}>
             <Nav isFixed={true} />
-            <section className={classes.secTitle}>
+            {/* <section className={classes.secTitle}>
               <Button className={classes.prevButton} aria-label="Previous" component={Link} to={`${'/work/' + prevIndex}`}>
                 <NavigateBefore />
                 Prev
@@ -138,54 +148,72 @@ class Work extends Component {
                 Next
                 <NavigateNext />
               </Button>
-            </section>
+            </section> */}
             <section className={classes.secDetails}>
               <Fade bottom>
-                <div className={classes.workHeader} style={{backgroundImage : `url(${Data.banner})`}}></div>
+                <div className={classes.workHeader} style={{ backgroundImage: `url(${Project.banner})` }}></div>
               </Fade>
               <Slide bottom>
                 <div className={classes.secContainer}>
-                  <Typography className={classes.workTitle} variant="h2">{Data.title}</Typography>
+                  <Typography className={classes.workTitle} variant="h2">{Project.title}</Typography>
                 </div>
               </Slide>
               {
-                Data.content.map((val, i) => {
+                Project.content.map((val, i) => {
                   switch (val.type) {
                     case "img":
                       return <Fade key={i} bottom>
-                                <img className={classes.bodyImages} src={val.val} alt={Data.title} />
-                              </Fade>
+                        <img className={classes.bodyImages} src={val.val} alt={Project.title} />
+                      </Fade>
+                    case "video":
+                      return <Fade key={i} bottom>
+                        <video autoPlay muted loop className={classes.vdo}>
+                          <source src={val.val} type="video/mp4" />
+                        </video>
+                      </Fade>
                     case "h3":
                       return <Slide key={i} bottom>
-                                <div className={classes.secContainer}>
-                                  <Typography variant="h3">{val.val}</Typography>
-                                </div>
-                              </Slide>
+                        <div className={classes.secContainer}>
+                          <Typography variant="h3">{val.val}</Typography>
+                        </div>
+                      </Slide>
                     case "h4":
                       return <Slide key={i} bottom>
-                                <div className={classes.secContainer}>
-                                  <Typography variant="h4">{val.val}</Typography>
-                                </div>
-                              </Slide>
+                        <div className={classes.secContainer}>
+                          <Typography variant="h4">{val.val}</Typography>
+                        </div>
+                      </Slide>
                     case "info":
                       return <Slide key={i} bottom>
-                                <div className={classes.secInfoContainer}>
-                                  <Typography variant="body2" className={classes.secInfo}><b>Client: </b>{val.client}</Typography>
-                                  <Typography variant="body2" className={classes.secInfo}><b>Company: </b>{val.company}</Typography>
-                                  <Typography variant="body2" className={classes.secInfo}><b>Tech: </b>{val.tech}</Typography>
-                                  {val.url &&
-                                    <Typography variant="body2" className={classes.secInfo}><b>Website: </b><a target="_blank" rel="noopener noreferrer" href={val.url}>{val.urlText}</a></Typography>
-                                  }
-                                </div>
-                              </Slide>
+                        <div className={classes.secInfoContainer}>
+                          <Typography variant="body2" className={classes.secInfo}><b>Client: </b>{val.client}</Typography>
+                          <Typography variant="body2" className={classes.secInfo}><b>Company: </b>{val.company}</Typography>
+                          <Typography variant="body2" className={classes.secInfo}><b>Tech: </b>{val.tech}</Typography>
+                          {val.url &&
+                            <Typography variant="body2" className={classes.secInfo}><b>Website: </b><a target="_blank" rel="noopener noreferrer" href={val.url}>{val.urlText}</a></Typography>
+                          }
+                        </div>
+                      </Slide>
                     default:
                       return <Slide key={i} bottom>
-                                <div className={classes.secContainer}>
-                                  <Typography variant="body2">{val.val}</Typography>
-                                </div>
-                              </Slide>
+                        <div className={classes.secContainer}>
+                          <Typography variant="body2">{val.val}</Typography>
+                        </div>
+                      </Slide>
                   }
                 })
+              }
+            </section>
+            <Typography variant="h3" className={classes.moreProj}>More Projects</Typography>
+            <section>
+              {Data &&
+                <div className={classes.workTiles} ref="workTiles">
+                  {
+                    Data.map((val, i) => {
+                      return <Tile val={val} key={i} tileIndex={i} />
+                    })
+                  }
+                </div>
               }
             </section>
           </Grid>

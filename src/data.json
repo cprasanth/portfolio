@@ -425,7 +425,12 @@
         {
           "type": "img",
           "val": "/images/work/elt/elt6.png"
+        },
+        {
+          "type": "video",
+          "val": "/images/work/elt/elt.mp4"
         }
+
       ]
     },
     {
@@ -466,11 +471,11 @@
       "content":[        
         {
           "type": "body1",
-          "val": "Pitch Space is a bespoke presentation tool developed for Faithful+Gould which allows users to easily create and share presentations from a list of pre-built templates following the company brand guidelines."
+          "val": "Pitch Space is a bespoke presentation tool developed for Faithful+Gould which allows users to easily create and share presentations from a list of pre-built templates following the company brand guidelines. This tool was developed using SailsJS and mySQL as the database."
         },
         {
           "type": "body1",
-          "val": "A curated collection of photos, videos and illustraitions called Pitch Stock was also created. This allowed the users to create their own personal collection of assets for faster creation of presentaions. These assets can be imported into Pitch Space presentations."
+          "val": "A curated collection of photos, videos and illustrations called Pitch Stock was also created as a part of this project. This allowed the users to create their own personal collection of assets and import it into their presentations."
         },
         {
           "type": "h4",
