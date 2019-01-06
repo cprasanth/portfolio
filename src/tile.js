@@ -53,6 +53,15 @@ const styles = theme => {
       zIndex: 1000,
       transition: 'bottom .2s ease-in',
       margin: 0,
+      [theme.breakpoints.up('xs')]: {
+        fontSize: '14px',
+      },
+      [theme.breakpoints.up('md')]: {
+        fontSize: '16px',
+      },
+      [theme.breakpoints.up('lg')]: {
+        fontSize: '19px',
+      },
     }
   })
 };

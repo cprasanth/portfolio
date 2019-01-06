@@ -1,7 +1,7 @@
 {
   "en":[
     {
-      "title": "West Cambridge Masterplan - Enviornmental Impact Assessment NTS",
+      "title": "West Cambridge Masterplan - EIA",
       "thumbnail": "/images/work/nts/thumb.png",
       "banner": "/images/work/nts/nts1.jpg",
       "content":[        
@@ -305,20 +305,44 @@
     {
       "title": "EWR Consultation",
       "thumbnail": "/images/work/ewr/thumb.png",
-      "banner": "https://loremflickr.com/950/200?lock=4",
+      "banner": "/images/work/ewr/ewr0.png",
       "content":[        
         {
           "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "val": "Network Rail was proposing to improve the railway between Oxford and Bedford, and Milton Keynes, Aylesbury and Princes Risborough by upgrading disused and underused rail track to provide a new rail link between these important conurbations, and provide additional routes and capacity for both passengers and freight."
+        },
+        {
+          "type": "body1",
+          "val": "On completion, this new rail link will connect the Great Western, Chiltern, West Coast and Midland Main Lines north of London and become a vital strategic rail link in Britain’s rail network."
+        },
+        {
+          "type": "body1",
+          "val": "As a part of this proposal, Network Rail was running a series of public consultations. We supported this event by developing an app to collect feedbacks from public. This app was published on web, apple appstore and android play store."
+        },
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "I was responsible for working with the subject experts in Atkins and our in-house design team to develop a SCORM compliant e-learning toolkit which is highly interactive and easy to use. The course modules were developed using Adobe Flash and a custom Learning Management System was developed using Moodle for user management and progress tracking."
+        },
+        {
+          "type": "info",
+          "client": " HMEP",
+          "company": "Atkins",
+          "tech": "Adobe Flash, Actionscrit3.0, Moodle, Javascript",
+          "url": "https://itunes.apple.com/us/app/ewr-consultation-2017/id1219972607",
+          "urlText": "HMEP Asset Management"
         },
         {
           "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=1"
+          "val": "/images/work/hmep/hm2.jpg"
         }
       ]
     },
     {
-      "title": "Human-Centered Design Concept Analysis Tool",
+      "title": "Human-Centered Design Analysis Tool",
       "thumbnail": "/images/work/hcd/thumb.png",
       "banner": "/images/work/hcd/hcd0.jpg",
       "content":[        

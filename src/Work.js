@@ -63,11 +63,19 @@ const styles = theme => {
       }
     },
     workHeader: {
-      width: '100%',
-      height: '500px',
+      width: '100%',      
       backgroundColor: '#aaaaaa',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
+      [theme.breakpoints.up('xs')]: {
+        height: '250px',
+      },
+      [theme.breakpoints.up('md')]: {
+        height: '400px',
+      },
+      [theme.breakpoints.up('lg')]: {
+        height: '500px',
+      },
     },
     bodyImages: {
       width: '100%',
