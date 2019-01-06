@@ -35,13 +35,17 @@ const styles = theme => {
       color: '#ffffff',
       fontWeight: 700,
       '&:hover':{
-        backgroundColor: '#ffce00',
-        color: '#17252a',
+        backgroundColor: '#253C45',
+        color: '#ffffff',
       },      
     },
     linkHomeActive:{
       backgroundColor: '#ffce00',
       color: '#17252a',
+      '&:hover':{
+        backgroundColor: '#ffce00',
+        color: '#17252a',
+      },  
     },
     linkAbout: {
       flexGrow: 1,
@@ -50,13 +54,17 @@ const styles = theme => {
       color: '#ffffff',
       fontWeight: 700,
       '&:hover':{
-        backgroundColor: '#ffce00',
-        color: '#17252a',
+        backgroundColor: '#253C45',
+        color: '#ffffff',
       },      
     },
     linkAboutActive:{
       backgroundColor: '#ffce00',
       color: '#17252a',
+      '&:hover':{
+        backgroundColor: '#ffce00',
+        color: '#17252a',
+      },  
     }
   })
 };

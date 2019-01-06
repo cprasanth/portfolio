@@ -27,12 +27,28 @@ const styles = theme => {
     heroText1: {      
       fontWeight: 800,
       color: '#17252a',
-      fontSize: '65px'
+      [theme.breakpoints.up('xs')]: {
+        fontSize: '40px',
+      },
+      [theme.breakpoints.up('md')]: {
+        fontSize: '55px',
+      },
+      [theme.breakpoints.up('lg')]: {
+        fontSize: '65px',
+      },
     }, 
     heroText2: {      
       fontWeight: 600,
       color: '#17252a',
-      fontSize: '32px'
+      [theme.breakpoints.up('xs')]: {
+        fontSize: '20px',
+      },
+      [theme.breakpoints.up('md')]: {
+        fontSize: '27px',
+      },
+      [theme.breakpoints.up('lg')]: {
+        fontSize: '32px',
+      },
     },     
     viewButton:{
       marginTop: '30px',

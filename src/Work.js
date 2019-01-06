@@ -71,15 +71,15 @@ const styles = theme => {
         height: '250px',
       },
       [theme.breakpoints.up('md')]: {
-        height: '400px',
+        height: '300px',
       },
       [theme.breakpoints.up('lg')]: {
-        height: '500px',
+        height: '400px',
       },
     },
     bodyImages: {
       width: '100%',
-      margin: '20px 0',
+      margin: '10px 0',
     },
     secContainer: {
       maxWidth: '740px',

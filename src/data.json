@@ -103,15 +103,7 @@
       "content":[        
         {
           "type": "body1",
-          "val": "Lorem ipsumonsectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "type": "body1",
-          "val": "Lorem ipsum dolor sadipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "val": "Atkins Acuity is the advisory business in Atkins group helping clients to successfully deliver their big ambitions for infrastructure and energy worldwide."
         },
         {
           "type": "h4",
@@ -119,7 +111,7 @@
         },
         {
           "type": "body1",
-          "val": "I was responsible for the feasibilty study of technologies like Adapt learning framework and Unity for the simulations and interactivity on web. Also managed the collaboration between Unity and Web development team from conceptual stage to delivery."
+          "val": "I was part of the development team on both fron-end and back-end"
         },
         {
           "type": "info",
@@ -302,45 +294,7 @@
         }
       ]
     },
-    {
-      "title": "EWR Consultation",
-      "thumbnail": "/images/work/ewr/thumb.png",
-      "banner": "/images/work/ewr/ewr0.png",
-      "content":[        
-        {
-          "type": "body1",
-          "val": "Network Rail was proposing to improve the railway between Oxford and Bedford, and Milton Keynes, Aylesbury and Princes Risborough by upgrading disused and underused rail track to provide a new rail link between these important conurbations, and provide additional routes and capacity for both passengers and freight."
-        },
-        {
-          "type": "body1",
-          "val": "On completion, this new rail link will connect the Great Western, Chiltern, West Coast and Midland Main Lines north of London and become a vital strategic rail link in Britain’s rail network."
-        },
-        {
-          "type": "body1",
-          "val": "As a part of this proposal, Network Rail was running a series of public consultations. We supported this event by developing an app to collect feedbacks from public. This app was published on web, apple appstore and android play store."
-        },
-        {
-          "type": "h4",
-          "val": "My Role"
-        },
-        {
-          "type": "body1",
-          "val": "I was responsible for working with the subject experts in Atkins and our in-house design team to develop a SCORM compliant e-learning toolkit which is highly interactive and easy to use. The course modules were developed using Adobe Flash and a custom Learning Management System was developed using Moodle for user management and progress tracking."
-        },
-        {
-          "type": "info",
-          "client": " HMEP",
-          "company": "Atkins",
-          "tech": "Adobe Flash, Actionscrit3.0, Moodle, Javascript",
-          "url": "https://itunes.apple.com/us/app/ewr-consultation-2017/id1219972607",
-          "urlText": "HMEP Asset Management"
-        },
-        {
-          "type": "img",
-          "val": "/images/work/hmep/hm2.jpg"
-        }
-      ]
-    },
+    
     {
       "title": "Human-Centered Design Analysis Tool",
       "thumbnail": "/images/work/hcd/thumb.png",
@@ -379,21 +333,6 @@
         {
           "type": "img",
           "val": "/images/work/hcd/hcd4.jpg"
-        }
-      ]
-    },    
-    {
-      "title": "Digital EIA",
-      "thumbnail": "/images/work/eia/thumb.png",
-      "banner": "https://loremflickr.com/950/200?lock=4",
-      "content":[        
-        {
-          "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=1"
         }
       ]
     },
@@ -455,7 +394,61 @@
           "val": "/images/work/elt/elt6.png"
         }
       ]
+    },    
+    {
+      "title": "Digital EIA",
+      "thumbnail": "/images/work/eia/thumb.png",
+      "banner": "https://loremflickr.com/950/200?lock=4",
+      "content":[        
+        {
+          "type": "body1",
+          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+          "type": "img",
+          "val": "https://loremflickr.com/950/500?lock=1"
+        }
+      ]
     },
+    {
+      "title": "EWR Consultation",
+      "thumbnail": "/images/work/ewr/thumb.png",
+      "banner": "/images/work/ewr/ewr0.png",
+      "content":[        
+        {
+          "type": "body1",
+          "val": "Network Rail was proposing to improve the railway between Oxford and Bedford, and Milton Keynes, Aylesbury and Princes Risborough by upgrading disused and underused rail track to provide a new rail link between these important conurbations, and provide additional routes and capacity for both passengers and freight."
+        },
+        {
+          "type": "body1",
+          "val": "On completion, this new rail link will connect the Great Western, Chiltern, West Coast and Midland Main Lines north of London and become a vital strategic rail link in Britain’s rail network."
+        },
+        {
+          "type": "body1",
+          "val": "As a part of this proposal, Network Rail was running a series of public consultations. We supported this event by developing an app to collect feedbacks from public. This app was published on web, apple appstore and android play store."
+        },
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "I was responsible for working with the subject experts in Atkins and our in-house design team to develop a SCORM compliant e-learning toolkit which is highly interactive and easy to use. The course modules were developed using Adobe Flash and a custom Learning Management System was developed using Moodle for user management and progress tracking."
+        },
+        {
+          "type": "info",
+          "client": " HMEP",
+          "company": "Atkins",
+          "tech": "Adobe Flash, Actionscrit3.0, Moodle, Javascript",
+          "url": "https://itunes.apple.com/us/app/ewr-consultation-2017/id1219972607",
+          "urlText": "HMEP Asset Management"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/hmep/hm2.jpg"
+        }
+      ]
+    },    
     {
       "title": "FearFighter",
       "thumbnail": "/images/work/nhs/thumb.png",
@@ -490,7 +483,7 @@
     {
       "title": "Pitch Space",
       "thumbnail": "/images/work/pitch/thumb.jpg",
-      "banner": "/images/work/pitch/fg0.png",
+      "banner": "/images/work/pitch/fg0.jpg",
       "content":[        
         {
           "type": "body1",
@@ -510,7 +503,7 @@
         },
         {
           "type": "info",
-          "client": " Faithful+Gould",
+          "client": "Faithful+Gould",
           "company": "Atkins",
           "tech": "HTML5, SASS, AngularJS, NodeJS, SailsJS, Bootstrap, MySQL, Sharepoint",
           "url": "pitchspace.net",
@@ -555,13 +548,13 @@
       ]
     },
     {
-      "title": "Sherston",
+      "title": "Sherston Software",
       "thumbnail": "/images/work/sherston/thumb.png",
       "banner": "/images/work/sherston/sher.jpg",
       "content":[        
         {
           "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "val": "Sherston Software provides schools and nurseries within the U.K. and internationally with educational technology products, designed to nurture and motivate children as well as improve their performance. These software also enables teachers to easily assess, feedback, and report students’ progress."
         },
         {
           "type": "h4",
@@ -569,15 +562,15 @@
         },
         {
           "type": "body1",
-          "val": ""
+          "val": "I worked with course authors, teachers and animators and developed various e-learning courses using Adobe Flash and Actionscript for clients like Oxford University Press, BBC and Sherston. These courses were published as interactive CDROMs and SCORM compliant courses in planetsherston.com."
         },
         {
           "type": "info",
-          "client": " Faithful+Gould",
-          "company": "Atkins",
-          "tech": "HTML5, SASS, AngularJS, NodeJS, SailsJS, Bootstrap, MySQL, Sharepoint",
-          "url": "pitchspace.net",
-          "urlText": "Pitch Space"
+          "client": "BBC, Oxford University Press",
+          "company": "Sherston Publishing Group",
+          "tech": "HTML, CSS, Flash, Actionscript 3.0, XML, SCORM",
+          "url": "http://www.planetsherston.com/",
+          "urlText": "Planet Sherston"          
         },
         {
           "type": "img",

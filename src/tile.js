@@ -18,10 +18,10 @@ const styles = theme => {
       height: '400px',
       cursor: 'pointer',
       overflow: 'hidden',
-      position: 'relative',
+      position: 'relative', 
 
       '&:hover $tileImage': {
-        transform: 'scale(1.1)',        
+        transform: 'scale(1.1)',  
       },
       
       '&:hover $tileCaption': {
