@@ -175,7 +175,7 @@ class Work extends Component {
                       </Fade>
                     case "video":
                       return <Fade key={i} bottom>
-                        <video autoPlay muted loop className={classes.vdo}>
+                        <video autoPlay muted loop playsInline className={classes.vdo}>
                           <source src={val.val} type="video/mp4" />
                         </video>
                       </Fade>

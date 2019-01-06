@@ -135,7 +135,7 @@
         },
         {
           "type": "img",
-          "val": "/images/work/acuity/ac1.png"
+          "val": "/images/work/acuity/ac1.jpg"
         },
         {
           "type": "img",
@@ -186,19 +186,19 @@
         },
         {
           "type": "img",
-          "val": "/images/work/cycling/he1.png"
+          "val": "/images/work/cycling/he1.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/cycling/he2.png"
+          "val": "/images/work/cycling/he2.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/cycling/he3.png"
+          "val": "/images/work/cycling/he3.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/cycling/he4.png"
+          "val": "/images/work/cycling/he4.jpg"
         }
       ]
     },
@@ -423,16 +423,20 @@
           "urlText": "ELT Registration"
         },
         {
+          "type": "video",
+          "val": "/images/work/elt/elt.mp4"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/elt/elt7.jpg"
+        },
+        {
           "type": "img",
           "val": "/images/work/elt/elt1.png"
         },          
         {
           "type": "img",
           "val": "/images/work/elt/elt8.png"
-        },
-        {
-          "type": "img",
-          "val": "/images/work/elt/elt7.jpg"
         },
         {
           "type": "img",
@@ -449,12 +453,7 @@
         {
           "type": "img",
           "val": "/images/work/elt/elt6.png"
-        },
-        {
-          "type": "video",
-          "val": "/images/work/elt/elt.mp4"
         }
-
       ]
     },
     {
@@ -519,46 +518,46 @@
         },
         {
           "type": "img",
-          "val": "/images/work/pitch/fg9.png"
+          "val": "/images/work/pitch/fg9.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/pitch/fg1.png"
+          "val": "/images/work/pitch/fg1.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/pitch/fg2.png"
+          "val": "/images/work/pitch/fg2.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/pitch/fg3.png"
+          "val": "/images/work/pitch/fg3.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/pitch/fg4.png"
+          "val": "/images/work/pitch/fg4.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/pitch/fg8.png"
+          "val": "/images/work/pitch/fg8.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/pitch/fg5.png"
+          "val": "/images/work/pitch/fg5.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/pitch/fg6.png"
+          "val": "/images/work/pitch/fg6.jpg"
         },
         {
           "type": "img",
-          "val": "/images/work/pitch/fg7.png"
+          "val": "/images/work/pitch/fg7.jpg"
         }
       ]
     },
     {
       "title": "Sherston",
       "thumbnail": "/images/work/sherston/thumb.png",
-      "banner": "/images/work/sherston/sh1.png",
+      "banner": "/images/work/sherston/sher.jpg",
       "content":[        
         {
           "type": "body1",
@@ -582,7 +581,19 @@
         },
         {
           "type": "img",
-          "val": "/images/work/sherston/sh2.png"
+          "val": "/images/work/sherston/mc.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/sherston/nrt.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/sherston/bbc.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/sherston/oup.jpg"
         }
       ]
     }
