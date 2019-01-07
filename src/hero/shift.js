@@ -1,4 +1,3 @@
-'use strict';
 import SimplexNoise from "simplex-noise";
 
 const { PI, cos, sin, abs, sqrt, pow, round, random, atan2 } = Math;
@@ -139,13 +138,6 @@ function createCanvas() {
 		a: document.createElement('canvas'),
 		b: document.createElement('canvas')
 	};
-	canvas.b.style = `
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	`;
 	container.appendChild(canvas.b);
 	ctx = {
 		a: canvas.a.getContext('2d'),
@@ -170,6 +162,7 @@ function resize() {
 function render() {
   ctx.b.save();
   ctx.b.filter = 'blur(50px)';
+  ctx.b.backdropFilter = 'blur(50px);';
   ctx.b.drawImage(canvas.a, 0, 0);
   ctx.b.restore();
 }

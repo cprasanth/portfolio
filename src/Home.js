@@ -24,10 +24,11 @@ const styles = theme => {
       position: 'absolute',
       width: '100%',      
       textAlign: 'center',
+      zIndex: 1,
     }, 
     heroText1: {      
       fontWeight: 800,
-      color: '#17252a',
+      color: '#ffffff',
       [theme.breakpoints.up('xs')]: {
         fontSize: '40px',
       },
@@ -115,6 +116,7 @@ class Home extends Component {
           <Grid item xs={12}>
             <section className={classes.heroSection}>              
               <div className={classes.heroDiv}>
+              {/* <Typography variant="body1" className={classes.heroText1}>Test</Typography> */}
                 <Typography variant="body1" className={classes.heroText1}>Hi, I'm Prasanth</Typography>
                 <Typography variant="body1" className={classes.heroText2}>Web Developer based in Bristol</Typography>
                 <Button className={classes.viewButton} onClick={this.scrollToWork}>View My Work</Button>
