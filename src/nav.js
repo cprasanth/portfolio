@@ -53,6 +53,7 @@ const styles = theme => {
       borderRadius: 0,
       color: '#ffffff',
       fontWeight: 700,
+      backgroundColor: '#10171E',
       '&:hover':{
         backgroundColor: '#253C45',
         color: '#ffffff',

@@ -5,6 +5,7 @@ import Tile from './tile';
 import Nav from './nav';
 import { CSSTransitionGroup } from 'react-transition-group';
 // import threeEntryPoint from "./hero/threeEntryPoint"
+import shift from "./hero/shift";
 import scrollToComponent from 'react-scroll-to-component';
 
 const styles = theme => {
@@ -118,7 +119,8 @@ class Home extends Component {
                 <Typography variant="body1" className={classes.heroText2}>Web Developer based in Bristol</Typography>
                 <Button className={classes.viewButton} onClick={this.scrollToWork}>View My Work</Button>
               </div>
-              <div ref={element => this.threeRootElement = element} className={classes.threeDiv} />
+              {/* <div ref={element => this.threeRootElement = element} className={classes.threeDiv} /> */}
+              <div className="content content--canvas"></div>
             </section>
             <Nav isFixed={this.state.navFixed} isHome={true} />
             <section>
