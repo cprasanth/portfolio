@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
 import { withStyles, CssBaseline, createMuiTheme, MuiThemeProvider } from '@material-ui/core';
-import Raleway from 'typeface-raleway';
+import 'typeface-raleway';
 import ScrollToTop from './scrollToTop';
 import Home from './Home';
+import WorkList from './WorkList';
 import Work from './Work';
 import About from './About';
 import Data from './data';
@@ -82,6 +83,7 @@ const App = () => (
     <ScrollToTop />
     <Switch>
       <Route path="/" exact render={() => <Home Data={Data.en} />} />
+      <Route path="/work" exact render={(match) => <WorkList Data={Data.en} />} />
       <Route path="/work/:Id" render={(match) => <Work Data={Data.en} Project={Data.en[match.match.params.Id]} lastIndex={Data.en.length - 1} curIndex={match.match.params.Id} />} />
       <Route path="/about" render={() => <About />} />
       <Redirect to="/" />

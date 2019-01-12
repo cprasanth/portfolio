@@ -5,6 +5,8 @@ import Tile from './tile';
 import Nav from './nav';
 import { CSSTransitionGroup } from 'react-transition-group';
 import scrollToComponent from 'react-scroll-to-component';
+import { Link } from 'react-router-dom';
+
 
 const styles = theme => {
   const navHeight = '70px';
@@ -16,15 +18,15 @@ const styles = theme => {
       alignItems: 'center',
       justifyContent: 'center',
       flexDirection: 'row',
-      background: 'radial-gradient(ellipse at center, rgba(252,252,252,1) 0%,rgba(221,222,222,1) 100%)',
-    },  
-    heroDiv: {      
+      background: 'radial-gradient(ellipse at center, rgba(252,252,252,1) 0%,rgba(181,203,201,1) 100%)',
+    },
+    heroDiv: {
       position: 'absolute',
-      width: '100%',      
+      width: '100%',
       textAlign: 'center',
       zIndex: 1,
-    }, 
-    heroText1: {      
+    },
+    heroText1: {
       fontWeight: 800,
       color: '#17252a',
       [theme.breakpoints.up('xs')]: {
@@ -36,8 +38,8 @@ const styles = theme => {
       [theme.breakpoints.up('lg')]: {
         fontSize: '65px',
       },
-    }, 
-    heroText2: {      
+    },
+    heroText2: {
       fontWeight: 600,
       color: '#17252a',
       [theme.breakpoints.up('xs')]: {
@@ -49,20 +51,20 @@ const styles = theme => {
       [theme.breakpoints.up('lg')]: {
         fontSize: '32px',
       },
-    },     
-    viewButton:{
+    },
+    viewButton: {
       marginTop: '30px',
       borderRadius: 2,
       border: '1px solid #17252a',
-      transition: 'all 1s', 
-      '&:hover':{
+      transition: 'all 1s',
+      '&:hover': {
         backgroundColor: 'transparent',
         // borderColor: '#3aafa9',
         // color: '#ffffff',
         borderRadius: 10,
       }
     },
-    threeDiv:{
+    threeDiv: {
       width: '100%',
       height: '100%',
     },
@@ -72,6 +74,16 @@ const styles = theme => {
       flexWrap: 'wrap',
       position: 'relative',
     },
+    moreDiv: {
+      margin: '30px auto',
+      width: '200px',
+    },
+    linkWork: {
+      textAlign: 'center',      
+      backgroundColor: '#CCCCCC',
+      borderRadius: 0,
+      padding: '6px 20px',
+    }
   })
 };
 
@@ -98,25 +110,25 @@ class Home extends Component {
     window.removeEventListener('scroll', this.handleOnScroll)
   }
   scrollToWork = () => {
-    scrollToComponent(this.refs.workTiles, { offset: -71, align: 'top', duration: 800, ease:'outCube'});
+    scrollToComponent(this.refs.workTiles, { offset: -71, align: 'top', duration: 800, ease: 'outCube' });
   }
   render() {
     const { classes, Data } = this.props;
     return (
       <CSSTransitionGroup
-      transitionName="example"
-      transitionAppear={true}
-      transitionAppearTimeout={500}
-      transitionEnter={false}
-      transitionLeave={false}>
+        transitionName="example"
+        transitionAppear={true}
+        transitionAppearTimeout={500}
+        transitionEnter={false}
+        transitionLeave={false}>
 
         <Grid container key="home">
           <Grid item xs={12}>
-            <section className={classes.heroSection}>              
+            <section className={classes.heroSection}>
               <div className={classes.heroDiv}>
-              {/* <Typography variant="body1" className={classes.heroText1}>Test</Typography> */}
-                <Typography variant="body1" className={classes.heroText1}>Hi, I'm Prasanth</Typography>
-                <Typography variant="body1" className={classes.heroText2}>Web Developer based in Bristol</Typography>
+                {/* <Typography variant="body1" className={classes.heroText1}>Test</Typography> */}
+                <Typography variant="body1" className={classes.heroText1}>Hello, I'm Prasanth</Typography>
+                <Typography variant="body1" className={classes.heroText2}>Web Developer, UX Enthusiast</Typography>
                 <Button className={classes.viewButton} onClick={this.scrollToWork}>View My Work</Button>
               </div>
               {/* <div ref={element => this.threeRootElement = element} className={classes.threeDiv} /> */}
@@ -124,15 +136,21 @@ class Home extends Component {
             </section>
             <Nav isFixed={this.state.navFixed} isHome={true} />
             <section>
-              {Data&&
+              {Data &&
                 <div className={classes.workTiles} ref="workTiles">
                   {
-                    Data.map((val, i)=> {
-                      return <Tile val={val} key={i} tileIndex={i} />    
+                    Data.map((val, i) => {
+                      if (val.featured === "true") {
+                        return <Tile val={val} key={i} tileIndex={i} />
+                      }
+                      return null;
                     })
                   }
                 </div>
               }
+              <div className={classes.moreDiv}>
+                <Button component={Link} to="/work" className={classes.linkWork}>View All Projects</Button>
+              </div>
             </section>
           </Grid>
         </Grid>

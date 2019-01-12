@@ -47,7 +47,8 @@
     {
       "title": "Public realm strategy and design guide",
       "thumbnail": "/images/work/crown/thumb.jpg",
-      "banner": "/images/work/crown/ce1.png",
+      "banner": "/images/work/crown/ce1.png",      
+      "featured": "true",
       "content":[
         
         {
@@ -143,6 +144,7 @@
       "title": "Cycle Traffic E-learning",
       "thumbnail": "/images/work/cycling/thumb.png",
       "banner": "/images/work/cycling/he.png",
+      "featured": "true",
       "content":[                
         {
           "type": "body1",
@@ -198,6 +200,7 @@
       "title": "Big Bang Fair",
       "thumbnail": "/images/work/bigbang/thumb.jpg",
       "banner": "/images/work/bigbang/bb0.jpg",
+      "featured": "true",
       "content":[
         {
           "type": "body1",
@@ -247,6 +250,7 @@
       "title": "HMEP Asset Management E-Learning",
       "thumbnail": "/images/work/hmep/thumb.png",
       "banner": "/images/work/hmep/hm1.jpg",
+      "featured": "false",
       "content":[        
         {
           "type": "body1",
@@ -299,6 +303,7 @@
       "title": "Human-Centered Design Analysis Tool",
       "thumbnail": "/images/work/hcd/thumb.png",
       "banner": "/images/work/hcd/hcd0.jpg",
+      "featured": "false",
       "content":[        
         {
           "type": "body1",
@@ -340,6 +345,7 @@
       "title": "ELT",
       "thumbnail": "/images/work/elt/thumb.png",
       "banner": "/images/work/elt/elt0.png",
+      "featured": "true",
       "content":[        
         {
           "type": "body1",
@@ -414,6 +420,7 @@
       "title": "EWR Consultation",
       "thumbnail": "/images/work/ewr/thumb.png",
       "banner": "/images/work/ewr/ewr0.png",
+      "featured": "true",
       "content":[        
         {
           "type": "body1",
@@ -484,6 +491,7 @@
       "title": "Pitch Space",
       "thumbnail": "/images/work/pitch/thumb.jpg",
       "banner": "/images/work/pitch/fg0.jpg",
+      "featured": "true",
       "content":[        
         {
           "type": "body1",

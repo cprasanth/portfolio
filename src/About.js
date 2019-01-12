@@ -5,6 +5,8 @@ import { CSSTransitionGroup } from 'react-transition-group';
 import { Flip, Slide } from 'react-reveal';
 import Nav from './nav';
 
+import { Link } from 'react-router-dom';
+
 import htmlLogo from './images/html5.svg';
 import jqueryLogo from './images/jquery.png';
 import octoLogo from './images/OctoberCMS.png';
@@ -186,12 +188,12 @@ class About extends Component {
         transitionLeave={false}>
         <Grid container key="details">
           <Grid item xs={12}>
-            <Nav isFixed={true} />
+            <Nav isFixed={true} isAbout={true} />
             <section className={classes.secAbout}>
               <div className={classes.secContainer}>
                 <Typography variant="h2">About me</Typography>
                 <Slide bottom>
-                  <Typography variant="body2">Hello, I am a web developer with more than 14 years of commercial experience in developing high quality web applications, games, e-learning platforms and exceptional user experiences.</Typography>
+                  <Typography variant="body2">Hello, I am a web developer with more than 16 years of experience in developing high quality web applications, games, e-learning platforms and exceptional user experiences.</Typography>
                 </Slide>
                 <Slide bottom>
                   <Typography variant="h3">Experience</Typography>
@@ -456,25 +458,39 @@ class About extends Component {
                 <Flip left cascade duration={1000}>
                   <div>
                     <div className={classes.clientBox}>
-                      <img src={bbcLogo} alt="HTML5" className={classes.clientImage} />
+                      <Link to="/work/12">
+                        <img src={bbcLogo} alt="HTML5" className={classes.clientImage} />
+                      </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <img src={oupLogo} alt="HTML5" className={classes.clientImage} />
+                      <Link to="/work/12">
+                        <img src={oupLogo} alt="HTML5" className={classes.clientImage} />
+                      </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <img src={nhsLogo} alt="HTML5" className={classes.clientImage} />
+                      <Link to="/work/10">
+                        <img src={nhsLogo} alt="HTML5" className={classes.clientImage} />
+                      </Link>
+                    </div>
+                    {/* <div className={classes.clientBox}>
+                      <Link to="/work/12">
+                        <img src={HeathrowLogo} alt="HTML5" className={classes.clientImage} />
+                      </Link>
+                    </div> */}
+                    <div className={classes.clientBox}>
+                      <Link to="/work/9">
+                        <img src={nrLogo} alt="HTML5" className={classes.clientImage} />
+                      </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <img src={HeathrowLogo} alt="HTML5" className={classes.clientImage} />
+                      <Link to="/work/5">
+                        <img src={heLogo} alt="HTML5" className={classes.clientImage} />
+                      </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <img src={nrLogo} alt="HTML5" className={classes.clientImage} />
-                    </div>
-                    <div className={classes.clientBox}>
-                      <img src={heLogo} alt="HTML5" className={classes.clientImage} />
-                    </div>
-                    <div className={classes.clientBox}>
-                      <img src={ceLogo} alt="HTML5" className={classes.clientImage} />
+                      <Link to="/work/1">
+                        <img src={ceLogo} alt="HTML5" className={classes.clientImage} />
+                      </Link>
                     </div>
                   </div>
                 </Flip>

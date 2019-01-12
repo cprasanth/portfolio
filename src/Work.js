@@ -62,7 +62,7 @@ const styles = theme => {
       }
     },
     workHeader: {
-      width: '100%',      
+      width: '100%',
       backgroundColor: '#aaaaaa',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
@@ -145,7 +145,7 @@ class Work extends Component {
         transitionLeave={false}>
         <Grid container key="details">
           <Grid item xs={12}>
-            <Nav isFixed={true} />
+            <Nav isFixed={true} isWork={true} />
             <section className={classes.secDetails}>
               <Fade bottom>
                 <div className={classes.workHeader} style={{ backgroundImage: `url(${Project.banner})` }}></div>
@@ -201,7 +201,9 @@ class Work extends Component {
                 })
               }
             </section>
-            <Typography variant="h3" className={classes.moreProj}>More Projects</Typography>
+            <div className={classes.secContainer}>
+              <Typography variant="h3" className={classes.moreProj}>You might also like:</Typography>
+            </div>
             <section>
               {Data &&
                 <div className={classes.workTiles} ref="workTiles">
