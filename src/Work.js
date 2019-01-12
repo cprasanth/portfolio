@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import { Grid, Typography, Button } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 import Tile from './tile';
-// import { NavigateNext, NavigateBefore } from '@material-ui/icons';
 import { CSSTransitionGroup } from 'react-transition-group';
 import { Slide, Fade } from 'react-reveal';
 // import { Link } from 'react-router-dom';
@@ -147,16 +146,6 @@ class Work extends Component {
         <Grid container key="details">
           <Grid item xs={12}>
             <Nav isFixed={true} />
-            {/* <section className={classes.secTitle}>
-              <Button className={classes.prevButton} aria-label="Previous" component={Link} to={`${'/work/' + prevIndex}`}>
-                <NavigateBefore />
-                Prev
-              </Button>
-              <Button className={classes.nextButton} aria-label="Next" component={Link} to={`${'/work/' + nextIndex}`}>
-                Next
-                <NavigateNext />
-              </Button>
-            </section> */}
             <section className={classes.secDetails}>
               <Fade bottom>
                 <div className={classes.workHeader} style={{ backgroundImage: `url(${Project.banner})` }}></div>

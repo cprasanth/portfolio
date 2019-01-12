@@ -4,8 +4,6 @@ import { Typography, Grid, Button } from '@material-ui/core';
 import Tile from './tile';
 import Nav from './nav';
 import { CSSTransitionGroup } from 'react-transition-group';
-// import threeEntryPoint from "./hero/threeEntryPoint"
-import shift from "./hero/shift";
 import scrollToComponent from 'react-scroll-to-component';
 
 const styles = theme => {
@@ -28,7 +26,7 @@ const styles = theme => {
     }, 
     heroText1: {      
       fontWeight: 800,
-      color: '#ffffff',
+      color: '#17252a',
       [theme.breakpoints.up('xs')]: {
         fontSize: '40px',
       },
