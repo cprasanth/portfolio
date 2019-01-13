@@ -25,7 +25,7 @@ const styles = theme => {
       left: 0,
       // boxShadow: '0px 2px 7px 0px rgba(186,186,186,1)',
       transition: 'box-shadow 1s',
-      zIndex: '10',
+      zIndex: '1100',
       display: 'flex',      
       color: '#ffffff',
     },

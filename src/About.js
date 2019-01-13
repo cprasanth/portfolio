@@ -193,7 +193,8 @@ class About extends Component {
               <div className={classes.secContainer}>
                 <Typography variant="h2">About me</Typography>
                 <Slide bottom>
-                  <Typography variant="body2">Hello, I am a web developer with more than 16 years of experience in developing high quality web applications, games, e-learning platforms and exceptional user experiences.</Typography>
+                  <Typography variant="body2">Hello, I am a web developer with more than 16 years of experience in building web, mobile applications, games and e-learning solutions. I am a technology optimist, UX enthusiast, photographer, happy husband and proud father of two boys.</Typography>
+                  <Typography variant="body2">A snapshot of my work experience and skillset is below. Feel free to reach out at <b>hello [a] prasanth.cc</b> or follow me on <a href="https://www.linkedin.com/in/prasanthpanicker/" rel="noopener noreferrer" target="_blank">Linkedin</a>, <a href="https://twitter.com/prasanthc" rel="noopener noreferrer" target="_blank">Twitter</a> or <a href="https://www.instagram.com/prasanthcpanicker/" rel="noopener noreferrer" target="_blank">Instagram</a></Typography>
                 </Slide>
                 <Slide bottom>
                   <Typography variant="h3">Experience</Typography>
@@ -471,7 +472,7 @@ class About extends Component {
                       <Link to="/work/10">
                         <img src={nhsLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
-                    </div>                    
+                    </div>
                     <div className={classes.clientBox}>
                       <Link to="/work/9">
                         <img src={nrLogo} alt="HTML5" className={classes.clientImage} />
