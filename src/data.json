@@ -7,7 +7,7 @@
       "content":[        
         {
           "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "val": "Environmental planning team in Atkins was preparing a non-technical summary of West Cambridge masterplan. We produced an interactive website with maps from GIS team to support this document."
         }, 
         {
           "type": "h4",
@@ -15,13 +15,13 @@
         },
         {
           "type": "body1",
-          "val": "I was responsible for building the front-end using HTML5, CSS3 and BackboneJS and used Sharepoint REST APIs as backend"
+          "val": "I was responsible for developing the website using HTML5, Materialize and AngularJS."
         },      
         {
           "type": "info",
           "client": "University of Cambridge",
           "company": "Atkins",
-          "tech": "HTML5, LESS, BackboneJS, RequireJS, Leaflet, Sharepoint, Cordova",
+          "tech": "HTML5, SASS, AngularJS, Materialize, Browserify",
           "url": "https://westcambridge-nts.com/",
           "urlText": "West Cambridge Masterplan"
         },  
@@ -76,10 +76,6 @@
           "urlText": "Public Realm Strategy and Design Guide"
         },        
         {
-          "type": "h4",
-          "val": "Screenshots"
-        },        
-        {
           "type": "img",
           "val": "/images/work/crown/ce3.jpg"
         },
@@ -112,19 +108,15 @@
         },
         {
           "type": "body1",
-          "val": "I was part of the development team on both fron-end and back-end"
+          "val": "I was part of the development team creating the front-end of the application using HTML5 and Bootstrap. Also developed various custom plugins for the OctoberCMS backend using PHP Laravel framework."
         },
         {
           "type": "info",
           "client": " Acuity",
           "company": "Atkins",
-          "tech": "Adapt Learning, Unity, WebGL, Moodle",
+          "tech": "HTML5, CSS3, Bootstrap, OctoberCMS, Laravel",
           "url": "https://www.atkinsacuity.com",
           "urlText": "Atkins Acuity"
-        },
-        {
-          "type": "h4",
-          "val": "Screenshots"
         },
         {
           "type": "img",
@@ -155,10 +147,6 @@
           "val": "Increasing highway design professionals’ engagement and knowledge of key requirements in the planning and design of infrastructure for cycle traffic was the objective of the delivery. An interactive and comprehensive set of e-learning modules were produced to give guidance on designing for cycle traffic."
         },
         {
-          "type": "body1",
-          "val": "Utilising cutting edge elearning platforms such an Adapt framework with mini game interactions built in Unity created a dynamic and technologically advanced e-learning."
-        },
-        {
           "type": "h4",
           "val": "My Role"
         },
@@ -173,10 +161,6 @@
           "tech": "Adapt Learning, Unity, WebGL, Moodle",
           "url": "https://cycletraffic-elearning.com/",
           "urlText": "Cycle Traffic"
-        },
-        {
-          "type": "h4",
-          "val": "Screenshots"
         },
         {
           "type": "img",
@@ -200,7 +184,7 @@
       "title": "Big Bang Fair",
       "thumbnail": "/images/work/bigbang/thumb.jpg",
       "banner": "/images/work/bigbang/bb0.jpg",
-      "featured": "true",
+      "featured": "false",
       "content":[
         {
           "type": "body1",
@@ -208,7 +192,7 @@
         },
         {
           "type": "body1",
-          "val": "To support the event two educational and fun facts games were developed. One game would challenge players to ensure the correct level and type of power was supplied to a city based on a scenario given, while the other would require them to solve problems associated with connecting water lines. Both games were timed based increased in complexity as the player progressed through the stages. Games were presented on two separate touch screens held within an eco-friendly themed house."
+          "val": "To support the event two educational and fun facts games were developed. One game would challenge players to ensure the correct level and type of power was supplied to a city based on a scenario given, while the other would require them to solve problems associated with connecting water lines. Both games were time based and increases in complexity as the player progressed through the stages. Games were presented on two separate touch screens held within an eco-friendly themed house."
         },
         {
           "type": "h4",
@@ -303,7 +287,7 @@
       "title": "Human-Centered Design Analysis Tool",
       "thumbnail": "/images/work/hcd/thumb.png",
       "banner": "/images/work/hcd/hcd0.jpg",
-      "featured": "false",
+      "featured": "true",
       "content":[        
         {
           "type": "body1",
@@ -315,13 +299,13 @@
         },
         {
           "type": "body1",
-          "val": "My main responsibility on this ongoing project was to develop front-end of the tool with charting capabilities. User interface of the tool was deeloped using angularJS and MaterializeCSS."
+          "val": "My responsibilities include providing guidance to the development team in Atkins Bangalore office, overseeing the front-end development of the product and ensuring best practices were followed."
         },
         {
           "type": "info",
           "client": " Bulding Design",
           "company": "Atkins",
-          "tech": "HTML5, SASS, Materialize, AngularJS, PlotlyJS"
+          "tech": "C#, ASPX, Materialize, AngularJS, ThreeJS, PlotlyJS"
         },
         {
           "type": "img",
@@ -349,7 +333,7 @@
       "content":[        
         {
           "type": "body1",
-          "val": "Registration app and a realtime dashboard for the ELT event at Arcelormittal Orbit in London."
+          "val": "A registration app with a short survey and a realtime dashboard was developed for the ELT event at Arcelormittal Orbit in London."
         },
         {
           "type": "h4",
@@ -357,13 +341,13 @@
         },
         {
           "type": "body1",
-          "val": "I was responsible for setting up the Firebase Realtime Database backend using Google Cloud Functions. Also implemented the Lottie SVG animations on the dashboard using Bodymovin plugin for Adobe Aftereffects."
+          "val": "I was responsible for developing the Firebase Realtime Database backend and Google Cloud Functions for the real time application. Also assisted the team implementing Lottie SVG animations on the dashboard using Aftereffects Bodymovin plugin."
         },
         {
           "type": "info",
           "client": " ELT",
           "company": "Atkins",
-          "tech": "HTML5, SASS, Materialize, Firebase, Google Functions, Lottie, Bodymovin, Adobe After effects",
+          "tech": "HTML5, SASS, Firebase, Google Functions, Lottie, Bodymovin, Adobe After effects",
           "url": "https://eltapp.netlify.com/dashboard",
           "urlText": "ELT Registration"
         },
@@ -404,15 +388,33 @@
     {
       "title": "Digital EIA",
       "thumbnail": "/images/work/eia/thumb.png",
-      "banner": "https://loremflickr.com/950/200?lock=4",
+      "banner": "/images/work/eia/eia0.png",
       "content":[        
         {
           "type": "body1",
-          "val": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur turpis eu mattis gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc elit, fermentum quis venenatis at, tincidunt vitae ligula. Vestibulum scelerisque hendrerit turpis sit amet fermentum. Nunc consectetur massa vitae augue malesuada hendrerit. Nullam viverra eros sed enim tempus tincidunt. Phasellus gravida lorem tellus. Etiam scelerisque mattis nunc, in vehicula tellus condimentum sed. Suspendisse potenti. Ut ut pellentesque nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "val": "As a part of the digital transformation strategy, Atkins Environmental planning team is developing an online tool for environmental impact assessment. This tool will help them in creating a technical summary document for local authorities."
         },
         {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "Developed a proof of concept which capture the site details using Atkins' GIS maps and generate a technical summary document in PDF format. This tool was developed using ReactJS, Redux and firebase."
+        },        
+        {
+          "type": "info",
+          "client": " Environmental Planning",
+          "company": "Atkins",
+          "tech": "HTML5, MaterialUI, React, Redux, Firebase"
+        },        
+        {
           "type": "img",
-          "val": "https://loremflickr.com/950/500?lock=1"
+          "val": "/images/work/eia/eia2.jpg"
+        },        
+        {
+          "type": "img",
+          "val": "/images/work/eia/eia1.jpg"
         }
       ]
     },
@@ -432,7 +434,7 @@
         },
         {
           "type": "body1",
-          "val": "As a part of this proposal, Network Rail was running a series of public consultations. We supported this event by developing an app to collect feedbacks from public. This app was published on web, apple appstore and android play store."
+          "val": "As a part of this proposal, Network Rail was running a series of public consultations. We supported this event by developing an app to collect feedbacks from public. This app was available on web, Apple appstore and Google play store which helped in a significant increase in public engagement than traditional consultation methods."
         },
         {
           "type": "h4",
@@ -440,19 +442,39 @@
         },
         {
           "type": "body1",
-          "val": "I was responsible for working with the subject experts in Atkins and our in-house design team to develop a SCORM compliant e-learning toolkit which is highly interactive and easy to use. The course modules were developed using Adobe Flash and a custom Learning Management System was developed using Moodle for user management and progress tracking."
+          "val": "I was responsible for leading the development team on this project, planning weekly sprints and running daily SCRUM calls. Devised an offline architecture for the consultation touchscreen app using PouchDB which syncs with the CouchDB on server when internet is available. This helped in providing a seamless user experience in places with limited internet connection."
         },
         {
           "type": "info",
-          "client": " HMEP",
+          "client": " Network Rail",
           "company": "Atkins",
-          "tech": "Adobe Flash, Actionscrit3.0, Moodle, Javascript",
-          "url": "https://itunes.apple.com/us/app/ewr-consultation-2017/id1219972607",
-          "urlText": "HMEP Asset Management"
+          "tech": "HTML5, SASS, AngularJS, Mapbox, CouchDB, PouchDB",
+          "url": "http://ewrconsultation.co.uk/main.html",
+          "urlText": "EWR Consultation"
         },
         {
           "type": "img",
-          "val": "/images/work/hmep/hm2.jpg"
+          "val": "/images/work/ewr/ewrc2.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/ewr/ewr8.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/ewr/ewr9.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/ewr/ewr10.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/ewr/ewrc1.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/ewr/ewrc3.jpg"
         }
       ]
     },    
@@ -495,11 +517,11 @@
       "content":[        
         {
           "type": "body1",
-          "val": "Pitch Space is a bespoke presentation tool developed for Faithful+Gould which allows users to easily create and share presentations from a list of pre-built templates following the company brand guidelines. This tool was developed using SailsJS and mySQL as the database."
+          "val": "Pitch Space is a bespoke presentation tool developed for Faithful+Gould which allows users to easily create and share presentations from a list of pre-built templates while adhering to the brand guidelines."
         },
         {
           "type": "body1",
-          "val": "A curated collection of photos, videos and illustrations called Pitch Stock was also created as a part of this project. This allowed the users to create their own personal collection of assets and import it into their presentations."
+          "val": "A curated collection of photos, videos and illustrations called Pitch Stock was also created as a part of this project. This allowed the users to create their own personal collection of assets and import it into their presentations on Pitch Space."
         },
         {
           "type": "h4",
@@ -507,14 +529,14 @@
         },
         {
           "type": "body1",
-          "val": ""
+          "val": "As a core member of the development team, I was responsible for developing the tool using SailsJS and MySQL."
         },
         {
           "type": "info",
           "client": "Faithful+Gould",
           "company": "Atkins",
-          "tech": "HTML5, SASS, AngularJS, NodeJS, SailsJS, Bootstrap, MySQL, Sharepoint",
-          "url": "pitchspace.net",
+          "tech": "HTML5, SASS, AngularJS, SailsJS, Bootstrap, MySQL, Sharepoint, Azure",
+          "url": "http://pitchspace.net",
           "urlText": "Pitch Space"
         },
         {

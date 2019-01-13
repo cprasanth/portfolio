@@ -57,6 +57,7 @@ const styles = theme => {
       borderRadius: 2,
       border: '1px solid #17252a',
       transition: 'all 1s',
+      padding: '10px 20px',
       '&:hover': {
         backgroundColor: 'transparent',
         // borderColor: '#3aafa9',
@@ -73,16 +74,24 @@ const styles = theme => {
       justifyContent: 'space-between',
       flexWrap: 'wrap',
       position: 'relative',
+      '&.fixedTiles': {
+        marginTop: '70px',
+      }
     },
     moreDiv: {
       margin: '30px auto',
-      width: '200px',
+      width: '250px',
     },
     linkWork: {
       textAlign: 'center',      
-      backgroundColor: '#CCCCCC',
+      backgroundColor: '#10171e',
+      color: '#FFFFFF',
       borderRadius: 0,
-      padding: '6px 20px',
+      padding: '15px 50px',
+      '&:hover':{
+        backgroundColor: '#2b3540',
+        color: '#FFFFFF',
+      }
     }
   })
 };
@@ -110,10 +119,14 @@ class Home extends Component {
     window.removeEventListener('scroll', this.handleOnScroll)
   }
   scrollToWork = () => {
-    scrollToComponent(this.refs.workTiles, { offset: -71, align: 'top', duration: 800, ease: 'outCube' });
+    scrollToComponent(this.refs.workTiles, { offset: -70, align: 'top', duration: 800, ease: 'outCube' });
   }
   render() {
     const { classes, Data } = this.props;
+    let fixedTiles = '';
+    if(this.state.navFixed){
+      fixedTiles = 'fixedTiles';
+    }
     return (
       <CSSTransitionGroup
         transitionName="example"
@@ -137,7 +150,7 @@ class Home extends Component {
             <Nav isFixed={this.state.navFixed} isHome={true} />
             <section>
               {Data &&
-                <div className={classes.workTiles} ref="workTiles">
+                <div className={`${classes.workTiles} ${fixedTiles}`} ref="workTiles">
                   {
                     Data.map((val, i) => {
                       if (val.featured === "true") {

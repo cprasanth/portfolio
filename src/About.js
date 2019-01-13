@@ -39,7 +39,7 @@ import invisionLogo from './images/invision.svg';
 import illusLogo from './images/illus.svg';
 import jiraLogo from './images/jira.svg';
 
-import HeathrowLogo from './images/heathrow.svg';
+import CambridgeLogo from './images/cambridge.png';
 import heLogo from './images/he.svg';
 import ceLogo from './images/ce.svg';
 import nhsLogo from './images/nhs.svg';
@@ -471,15 +471,15 @@ class About extends Component {
                       <Link to="/work/10">
                         <img src={nhsLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
-                    </div>
-                    {/* <div className={classes.clientBox}>
-                      <Link to="/work/12">
-                        <img src={HeathrowLogo} alt="HTML5" className={classes.clientImage} />
-                      </Link>
-                    </div> */}
+                    </div>                    
                     <div className={classes.clientBox}>
                       <Link to="/work/9">
                         <img src={nrLogo} alt="HTML5" className={classes.clientImage} />
+                      </Link>
+                    </div>
+                    <div className={classes.clientBox}>
+                      <Link to="/work/0">
+                        <img src={CambridgeLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
                     </div>
                     <div className={classes.clientBox}>

@@ -45,7 +45,7 @@ class Home extends Component {
             <section className={classes.secWork}>
               <div className={classes.secContainer}>
                 <Typography variant="h2">Work</Typography>
-                <Typography variant="body2" className={classes.workInfo}>Here's a selection of some recent work. Click on an image for more details.</Typography>
+                <Typography variant="body2" className={classes.workInfo}>Here's a selection of some of my recent projects. Click on an image for more details.</Typography>
 
               </div>
               {Data &&
