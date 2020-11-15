@@ -1,6 +1,48 @@
 {
   "en":[
     {
+      "title": "Virgin Money Platform",
+      "thumbnail": "/images/work/virgin/thumb.png",
+      "banner": "/images/work/virgin/vm4.png",
+      "featured": "true",
+      "content":[        
+        {
+          "type": "body1",
+          "val": "The joint venture between Parmenion and Virgin Money to develop a new direct to customer investment platform. This was developed using .net technologies and used ReactJS for the front end development"
+        }, 
+        {
+          "type": "h4",
+          "val": "My Role"
+        },
+        {
+          "type": "body1",
+          "val": "I was responsible for developing and maintaining a reactJS component library and developing various tools for the investment platform."
+        },      
+        {
+          "type": "info",
+          "client": "Virgin Money",
+          "company": "Parmenion",
+          "tech": "ReactJS, Redux, Redux Saga, Styled Components, Storybook"          
+        },  
+        {
+          "type": "img",
+          "val": "/images/work/virgin/vm1.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/virgin/vm2.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/virgin/vm3.jpg"
+        },
+        {
+          "type": "img",
+          "val": "/images/work/virgin/vm4.jpg"
+        }
+      ]
+    },
+    {
       "title": "West Cambridge Masterplan - EIA",
       "thumbnail": "/images/work/nts/thumb.png",
       "banner": "/images/work/nts/nts1.jpg",
@@ -15,13 +57,13 @@
         },
         {
           "type": "body1",
-          "val": "I was responsible for developing the website using HTML5, Materialize and AngularJS."
+          "val": "I was responsible for developing the website using AngularJS framework and Materialize."
         },      
         {
           "type": "info",
           "client": "University of Cambridge",
           "company": "Atkins",
-          "tech": "HTML5, SASS, AngularJS, Materialize, Browserify",
+          "tech": "AngularJS, HTML5, SASS, Materialize, Browserify",
           "url": "https://westcambridge-nts.com/",
           "urlText": "West Cambridge Masterplan"
         },  
@@ -65,13 +107,13 @@
         },
         {
           "type": "body1",
-          "val": "I was responsible for building the front-end using HTML5, CSS3 and BackboneJS and used Sharepoint REST APIs as backend"
+          "val": "I was responsible for building the front-end using BackboneJS and used Sharepoint REST APIs as backend"
         },
         {
           "type": "info",
           "client": "The Crown Estate",
           "company": "Atkins",
-          "tech": "HTML5, LESS, BackboneJS, RequireJS, Leaflet, Sharepoint, Cordova",
+          "tech": "BackboneJS, HTML5, LESS, RequireJS, Leaflet, Sharepoint, Cordova",
           "url": "https://thecrownestatepublicrealm.info",
           "urlText": "Public Realm Strategy and Design Guide"
         },        
@@ -114,7 +156,7 @@
           "type": "info",
           "client": " Acuity",
           "company": "Atkins",
-          "tech": "HTML5, CSS3, Bootstrap, OctoberCMS, Laravel",
+          "tech": "OctoberCMS, HTML5, CSS3, Bootstrap",
           "url": "https://www.atkinsacuity.com",
           "urlText": "Atkins Acuity"
         },
@@ -260,7 +302,7 @@
           "type": "info",
           "client": " HMEP",
           "company": "Atkins",
-          "tech": "Adobe Flash, Actionscrit3.0, Moodle, Javascript",
+          "tech": "Adobe Flash, Actionscript 3.0, Moodle, Javascript",
           "url": "http://learn.highwaysefficiency.org.uk",
           "urlText": "HMEP Asset Management"
         },
@@ -299,13 +341,13 @@
         },
         {
           "type": "body1",
-          "val": "My responsibilities include providing guidance to the development team in Atkins Bangalore office, overseeing the front-end development of the product and ensuring best practices were followed."
+          "val": "My responsibilities include leading the front-end development team in Atkins Bangalore office and doing code reviews to ensure quality and performance of the application."
         },
         {
           "type": "info",
           "client": " Bulding Design",
           "company": "Atkins",
-          "tech": "C#, ASPX, Materialize, AngularJS, ThreeJS, PlotlyJS"
+          "tech": "ReactJS, ThreeJS, PlotlyJS, C#, ASPX, MaterialUI"
         },
         {
           "type": "img",
@@ -341,13 +383,13 @@
         },
         {
           "type": "body1",
-          "val": "I was responsible for developing the Firebase Realtime Database backend and Google Cloud Functions for the real time application. Also assisted the team implementing Lottie SVG animations on the dashboard using Aftereffects Bodymovin plugin."
+          "val": "My role in the project included developing the real time application using Firebase and Google Cloud Functions. Also assisted in the team implementing Lottie SVG animations on the dashboard using Aftereffects Bodymovin plugin."
         },
         {
           "type": "info",
           "client": " ELT",
           "company": "Atkins",
-          "tech": "HTML5, SASS, Firebase, Google Functions, Lottie, Bodymovin, Adobe After effects",
+          "tech": "HTML5, SASS, Firebase, Google Functions, Lottie",
           "url": "https://eltapp.netlify.com/dashboard",
           "urlText": "ELT Registration"
         },
@@ -406,7 +448,7 @@
           "type": "info",
           "client": " Environmental Planning",
           "company": "Atkins",
-          "tech": "HTML5, MaterialUI, React, Redux, Firebase"
+          "tech": "React, Redux, MaterialUI, Firebase"
         },        
         {
           "type": "img",
@@ -442,13 +484,13 @@
         },
         {
           "type": "body1",
-          "val": "I was responsible for leading the development team on this project, planning weekly sprints and running daily SCRUM calls. Devised an offline architecture for the consultation touchscreen app using PouchDB which syncs with the CouchDB on server when internet is available. This helped in providing a seamless user experience in places with limited internet connection."
+          "val": "My role in this project included leading the development team on this project, helping the team in sprint planning and running daily SCRUM calls."
         },
         {
           "type": "info",
           "client": " Network Rail",
           "company": "Atkins",
-          "tech": "HTML5, SASS, AngularJS, Mapbox, CouchDB, PouchDB",
+          "tech": "AngularJS, HTML5, SASS, Mapbox, CouchDB, PouchDB",
           "url": "http://ewrconsultation.co.uk/main.html",
           "urlText": "EWR Consultation"
         },
@@ -513,7 +555,7 @@
       "title": "Pitch Space",
       "thumbnail": "/images/work/pitch/thumb.jpg",
       "banner": "/images/work/pitch/fg0.jpg",
-      "featured": "true",
+      "featured": "false",
       "content":[        
         {
           "type": "body1",
@@ -535,7 +577,7 @@
           "type": "info",
           "client": "Faithful+Gould",
           "company": "Atkins",
-          "tech": "HTML5, SASS, AngularJS, SailsJS, Bootstrap, MySQL, Sharepoint, Azure",
+          "tech": "SailsJS, AngularJS, HTML5, SASS, Bootstrap, MySQL",
           "url": "http://pitchspace.net",
           "urlText": "Pitch Space"
         },
@@ -598,7 +640,7 @@
           "type": "info",
           "client": "BBC, Oxford University Press",
           "company": "Sherston Publishing Group",
-          "tech": "HTML, CSS, Flash, Actionscript 3.0, XML, SCORM",
+          "tech": "Flash, Actionscript 3.0, HTML, CSS, XML, SCORM",
           "url": "http://www.planetsherston.com/",
           "urlText": "Planet Sherston"          
         },

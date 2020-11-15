@@ -7,38 +7,6 @@ import Nav from './nav';
 
 import { Link } from 'react-router-dom';
 
-import htmlLogo from './images/html5.svg';
-import jqueryLogo from './images/jquery.png';
-import octoLogo from './images/OctoberCMS.png';
-import angularLogo from './images/angular.svg';
-import azureLogo from './images/azure.svg';
-import backboneLogo from './images/backbone.svg';
-import bootstrapLogo from './images/bootstrap.svg';
-import cockpitLogo from './images/cockpit.svg';
-import css3Logo from './images/css3.svg';
-import githubLogo from './images/github.svg';
-import gitlabLogo from './images/gitlab.svg';
-import gulpLogo from './images/gulp.svg';
-import javascriptLogo from './images/javascript.svg';
-import laravelLogo from './images/laravel.svg';
-import lessLogo from './images/less.svg';
-import materializecssLogo from './images/materializecss.svg';
-import materialuiLogo from './images/material-ui.svg';
-import nodejsLogo from './images/nodejs.svg';
-import psLogo from './images/ps.svg';
-import pugLogo from './images/pug.svg';
-import reactLogo from './images/react.svg';
-import reduxLogo from './images/redux.svg';
-import sassLogo from './images/sass.svg';
-import webpackLogo from './images/webpack.svg';
-import wordpressLogo from './images/wordpress.svg';
-import mysqlLogo from './images/mysql.svg';
-import firebaseLogo from './images/firebase.svg';
-import couchLogo from './images/couchdb.svg';
-import invisionLogo from './images/invision.svg';
-import illusLogo from './images/illus.svg';
-import jiraLogo from './images/jira.svg';
-
 import CambridgeLogo from './images/cambridge.png';
 import heLogo from './images/he.svg';
 import ceLogo from './images/ce.svg';
@@ -46,6 +14,7 @@ import nhsLogo from './images/nhs.svg';
 import bbcLogo from './images/bbcd.svg';
 import oupLogo from './images/oup.svg';
 import nrLogo from './images/nr.svg';
+import vmLogo from './images/vm.png';
 
 const styles = theme => {
   const navHeight = '70px';
@@ -193,8 +162,8 @@ class About extends Component {
               <div className={classes.secContainer}>
                 <Typography variant="h2">About me</Typography>
                 <Slide bottom>
-                  <Typography variant="body2">Hello, I am a web developer with more than 16 years of experience in building web, mobile applications, games and e-learning solutions. I am a technology optimist, UX enthusiast, photographer, happy husband and proud father of two boys.</Typography>
-                  <Typography variant="body2">A snapshot of my work experience and skillset is below. Feel free to reach out at <b>hello [a] prasanth.cc</b> or follow me on <a href="https://www.linkedin.com/in/prasanthpanicker/" rel="noopener noreferrer" target="_blank">Linkedin</a>, <a href="https://twitter.com/prasanthc" rel="noopener noreferrer" target="_blank">Twitter</a> or <a href="https://www.instagram.com/prasanthcpanicker/" rel="noopener noreferrer" target="_blank">Instagram</a></Typography>
+                  <Typography variant="body2">Hello, I am a web developer with more than 18 years of experience in building web, mobile applications, games and e-learning solutions. I am a technology optimist, UX enthusiast, photographer, happy husband and proud father of two boys.</Typography>
+                  <Typography variant="body2">A snapshot of my work experience is below. Feel free to reach out at <b>hello [a] prasanth.cc</b> or follow me on <a href="https://www.linkedin.com/in/prasanthpanicker/" rel="noopener noreferrer" target="_blank">Linkedin</a></Typography>
                 </Slide>
                 <Slide bottom>
                   <Typography variant="h3">Experience</Typography>
@@ -206,12 +175,22 @@ class About extends Component {
                     <Slide bottom cascade>
                       <li className={classes.item}>
                         <div className={classes.content}>
+                          <Typography variant="h3" className={classes.time}>Mar 2018</Typography>
+                          <div className={classes.job}>
+                            <Typography variant="h4" className={classes.role}>Senior Frontend Developer</Typography>
+                            <Typography variant="h5" className={classes.company}>Parmenion, Bristol</Typography>
+                          </div>
+                          <Typography variant="body2" className={classes.info}>I was part of the development team to build a new investment platform for a joint venture between Parmenion and Virgin Money. Developed and maintained various reusable UI elements and patterns using ReactJS and storybook, implemented frontend for the investment tools using React, Redux and Styled components</Typography>
+                        </div>
+                      </li>
+                      <li className={classes.item}>
+                        <div className={classes.content}>
                           <Typography variant="h3" className={classes.time}>Apr 2017</Typography>
                           <div className={classes.job}>
                             <Typography variant="h4" className={classes.role}>Senior Web Developer</Typography>
                             <Typography variant="h5" className={classes.company}>Atkins, Bristol</Typography>
                           </div>
-                          <Typography variant="body2" className={classes.info}>Responsibilities include managing a team of four developers, running daily scrum standups and ensure that development standards, policies and procedures are adhered to.</Typography>
+                          <Typography variant="body2" className={classes.info}>New responsibilities include managing front end development team and ensure that development standards, policies and procedures are adhered to.</Typography>
                         </div>
                       </li>
                       <li className={classes.item}>
@@ -221,7 +200,7 @@ class About extends Component {
                             <Typography variant="h4" className={classes.role}>Web Developer</Typography>
                             <Typography variant="h5" className={classes.company}>Atkins, Bristol</Typography>
                           </div>
-                          <Typography variant="body2" className={classes.info}>As a part of the Creative Design team in Atkins, developed various online applications, intranet sites and e-learning applications. </Typography>
+                          <Typography variant="body2" className={classes.info}>As a part of the Creative Design team in Atkins, developed various online and mobile applications, intranet sites and e-learning applications. </Typography>
                         </div>
                       </li>
                       <li className={classes.item}>
@@ -277,173 +256,6 @@ class About extends Component {
                     </Slide>
                   </ul>
                 </section>
-
-
-                <Typography variant="h3">Skills</Typography>
-                <Typography variant="h4" className={classes.skillTitle}>HTML</Typography>
-                <Flip left cascade duration={1000}>
-                  <div>
-                    <div className={classes.skillBox}>
-                      <img src={htmlLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>HTML5</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={reactLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>JSX</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={pugLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Pug</Typography>
-                    </div>
-                  </div>
-                </Flip>
-                <Typography variant="h4" className={classes.skillTitle}>CSS</Typography>
-                <Flip left cascade duration={1000}>
-                  <div>
-                    <div className={classes.skillBox}>
-                      <img src={css3Logo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>CSS3</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={sassLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>SASS</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={lessLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>LESS</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={materialuiLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Material UI</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={materializecssLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Materialize</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={bootstrapLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Bootstrap</Typography>
-                    </div>
-                  </div>
-                </Flip>
-                <Typography variant="h4" className={classes.skillTitle}>Javascript</Typography>
-
-                <Flip left cascade duration={1000}>
-                  <div>
-                    <div className={classes.skillBox}>
-                      <img src={reactLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>React</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={reduxLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Redux</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={javascriptLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Javascript</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={jqueryLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>JQuery</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={angularLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Angular</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={backboneLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Backbone</Typography>
-                    </div>
-                  </div>
-                </Flip>
-                <Typography variant="h4" className={classes.skillTitle}>Backend</Typography>
-                <Flip left cascade duration={1000}>
-                  <div>
-                    <div className={classes.skillBox}>
-                      <img src={nodejsLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Node</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={laravelLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Laravel</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={mysqlLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>MySQL</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={firebaseLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Firebase</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={couchLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>CouchDB</Typography>
-                    </div>
-                  </div>
-                </Flip>
-                <Typography variant="h4" className={classes.skillTitle}>CMS</Typography>
-                <Flip left cascade duration={1000}>
-                  <div>
-                    <div className={classes.skillBox}>
-                      <img src={wordpressLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Wordpress</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={octoLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>OctoberCMS</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={cockpitLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>CockpitCMS</Typography>
-                    </div>
-                  </div>
-                </Flip>
-                <Typography variant="h4" className={classes.skillTitle}>Design</Typography>
-                <Flip left cascade duration={1000}>
-                  <div>
-                    <div className={classes.skillBox}>
-                      <img src={invisionLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Invision</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={illusLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Illustrator</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={psLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Photoshop</Typography>
-                    </div>
-                  </div>
-                </Flip>
-                <Typography variant="h4" className={classes.skillTitle}>Workflow</Typography>
-                <Flip left cascade duration={1000}>
-                  <div>
-                    <div className={classes.skillBox}>
-                      <img src={azureLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Azure Devops</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={jiraLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>JIRA</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={gitlabLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Gitlab</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={githubLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Github</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={webpackLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Webpack</Typography>
-                    </div>
-                    <div className={classes.skillBox}>
-                      <img src={gulpLogo} alt="HTML5" className={classes.skillImage} />
-                      <Typography variant="body2" className={classes.skillName}>Gulp</Typography>
-                    </div>
-                  </div>
-                </Flip>
                 <Slide bottom>
                   <Typography variant="h3">Education</Typography>
                 </Slide>
@@ -459,38 +271,43 @@ class About extends Component {
                 <Flip left cascade duration={1000}>
                   <div>
                     <div className={classes.clientBox}>
-                      <Link to="/work/12">
+                      <Link to="/work/13">
                         <img src={bbcLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <Link to="/work/12">
+                      <Link to="/work/13">
                         <img src={oupLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <Link to="/work/10">
+                      <Link to="/work/11">
                         <img src={nhsLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <Link to="/work/9">
+                      <Link to="/work/10">
                         <img src={nrLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <Link to="/work/0">
+                      <Link to="/work/1">
                         <img src={CambridgeLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <Link to="/work/5">
+                      <Link to="/work/6">
                         <img src={heLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
                     </div>
                     <div className={classes.clientBox}>
-                      <Link to="/work/1">
+                      <Link to="/work/2">
                         <img src={ceLogo} alt="HTML5" className={classes.clientImage} />
+                      </Link>
+                    </div>
+                    <div className={classes.clientBox}>
+                      <Link to="/work/0">
+                        <img src={vmLogo} alt="HTML5" className={classes.clientImage} />
                       </Link>
                     </div>
                   </div>
