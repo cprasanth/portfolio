@@ -175,7 +175,7 @@ class About extends Component {
                     <Slide bottom cascade>
                       <li className={classes.item}>
                         <div className={classes.content}>
-                          <Typography variant="h3" className={classes.time}>Mar 2018</Typography>
+                          <Typography variant="h3" className={classes.time}>Mar 2019</Typography>
                           <div className={classes.job}>
                             <Typography variant="h4" className={classes.role}>Senior Frontend Developer</Typography>
                             <Typography variant="h5" className={classes.company}>Parmenion, Bristol</Typography>
