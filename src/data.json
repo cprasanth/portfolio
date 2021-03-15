@@ -8,7 +8,7 @@
       "content":[        
         {
           "type": "body1",
-          "val": "The joint venture between Parmenion and Virgin Money to develop a new direct to customer investment platform. This was developed using .net technologies and used ReactJS for the front end development"
+          "val": "The joint venture between Parmenion and Virgin Money to develop a new direct to customer investment platform. This project was developed using ReactJS and .net technologies"
         }, 
         {
           "type": "h4",
@@ -16,13 +16,13 @@
         },
         {
           "type": "body1",
-          "val": "I was responsible for developing and maintaining a reactJS component library and developing various tools for the investment platform."
+          "val": "I was responsible for developing and maintaining a reactJS component library using storybook and involved in developing various tools for the investment platform using Typescript, React, Redux and Redux Saga."
         },      
         {
           "type": "info",
           "client": "Virgin Money",
           "company": "Parmenion",
-          "tech": "ReactJS, Redux, Redux Saga, Styled Components, Storybook"          
+          "tech": "Typescript, ReactJS, Redux, Redux Saga, Styled Components, Storybook"          
         },  
         {
           "type": "img",
@@ -63,9 +63,7 @@
           "type": "info",
           "client": "University of Cambridge",
           "company": "Atkins",
-          "tech": "AngularJS, HTML5, SASS, Materialize, Browserify",
-          "url": "https://westcambridge-nts.com/",
-          "urlText": "West Cambridge Masterplan"
+          "tech": "AngularJS, HTML5, SASS, Materialize, Browserify"
         },  
         {
           "type": "img",
@@ -113,9 +111,7 @@
           "type": "info",
           "client": "The Crown Estate",
           "company": "Atkins",
-          "tech": "BackboneJS, HTML5, LESS, RequireJS, Leaflet, Sharepoint, Cordova",
-          "url": "https://thecrownestatepublicrealm.info",
-          "urlText": "Public Realm Strategy and Design Guide"
+          "tech": "BackboneJS, HTML5, LESS, RequireJS, Leaflet, Sharepoint, Cordova"
         },        
         {
           "type": "img",
@@ -156,9 +152,7 @@
           "type": "info",
           "client": " Acuity",
           "company": "Atkins",
-          "tech": "OctoberCMS, HTML5, CSS3, Bootstrap",
-          "url": "https://www.atkinsacuity.com",
-          "urlText": "Atkins Acuity"
+          "tech": "OctoberCMS, HTML5, CSS3, Bootstrap"
         },
         {
           "type": "img",
@@ -200,9 +194,7 @@
           "type": "info",
           "client": " Highways England",
           "company": "Atkins",
-          "tech": "Adapt Learning, Unity, WebGL, Moodle",
-          "url": "https://cycletraffic-elearning.com/",
-          "urlText": "Cycle Traffic"
+          "tech": "Adapt Learning, Unity, WebGL, Moodle"
         },
         {
           "type": "img",
@@ -302,9 +294,7 @@
           "type": "info",
           "client": " HMEP",
           "company": "Atkins",
-          "tech": "Adobe Flash, Actionscript 3.0, Moodle, Javascript",
-          "url": "http://learn.highwaysefficiency.org.uk",
-          "urlText": "HMEP Asset Management"
+          "tech": "Adobe Flash, Actionscript 3.0, Moodle, Javascript"
         },
         {
           "type": "img",
@@ -389,9 +379,7 @@
           "type": "info",
           "client": " ELT",
           "company": "Atkins",
-          "tech": "HTML5, SASS, Firebase, Google Functions, Lottie",
-          "url": "https://eltapp.netlify.com/dashboard",
-          "urlText": "ELT Registration"
+          "tech": "HTML5, SASS, Firebase, Google Functions, Lottie"
         },
         {
           "type": "video",
@@ -490,9 +478,7 @@
           "type": "info",
           "client": " Network Rail",
           "company": "Atkins",
-          "tech": "AngularJS, HTML5, SASS, Mapbox, CouchDB, PouchDB",
-          "url": "http://ewrconsultation.co.uk/main.html",
-          "urlText": "EWR Consultation"
+          "tech": "AngularJS, HTML5, SASS, Mapbox, CouchDB, PouchDB"
         },
         {
           "type": "img",
@@ -541,9 +527,7 @@
           "type": "info",
           "client": " NHS",
           "company": "CCBT",
-          "tech": "HTML5, CSS3, Javascript, Actionscript3.0",
-          "url": "https://apps.beta.nhs.uk/fearfighter/",
-          "urlText": "Fear Fighter"
+          "tech": "HTML5, CSS3, Javascript, Actionscript3.0"
         },
         {
           "type": "img",
@@ -577,9 +561,7 @@
           "type": "info",
           "client": "Faithful+Gould",
           "company": "Atkins",
-          "tech": "SailsJS, AngularJS, HTML5, SASS, Bootstrap, MySQL",
-          "url": "http://pitchspace.net",
-          "urlText": "Pitch Space"
+          "tech": "SailsJS, AngularJS, HTML5, SASS, Bootstrap, MySQL"
         },
         {
           "type": "img",
@@ -640,9 +622,7 @@
           "type": "info",
           "client": "BBC, Oxford University Press",
           "company": "Sherston Publishing Group",
-          "tech": "Flash, Actionscript 3.0, HTML, CSS, XML, SCORM",
-          "url": "http://www.planetsherston.com/",
-          "urlText": "Planet Sherston"          
+          "tech": "Flash, Actionscript 3.0, HTML, CSS, XML, SCORM"
         },
         {
           "type": "img",
