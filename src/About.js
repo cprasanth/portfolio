@@ -165,7 +165,7 @@ class About extends Component {
                   <Typography variant='body2'>
                     Hello, I am a web developer with more than 18 years of
                     experience in building web, mobile applications, games and
-                    e-learning solutions. I'm Based in Bristol, but working for
+                    e-learning solutions. I'm based in Bristol, but working for
                     clients across the UK and abroad.
                   </Typography>
                 </Slide>
